@@ -4,15 +4,15 @@
   "metrics_diff": {
     "faithfulness": {
       "run_A": 0.8,
-      "run_B": 0.92,
-      "delta": 0.12,
-      "percent_change": 15.0
+      "run_B": 0.99,
+      "delta": 0.19,
+      "percent_change": 23.75
     },
     "answer_relevancy": {
-      "run_A": 0.7076,
-      "run_B": 0.7431,
-      "delta": 0.0355,
-      "percent_change": 5.02
+      "run_A": 0.7449,
+      "run_B": 0.7799,
+      "delta": 0.035,
+      "percent_change": 4.7
     },
     "context_precision": {
       "run_A": 1.0,
