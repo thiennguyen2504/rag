@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.pytest_cache/
+chroma_db/
+logs/runs.jsonl
+results/
+data/raw/
+data/eval_draft.jsonl
+

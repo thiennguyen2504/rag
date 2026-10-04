@@ -1,0 +1,17 @@
+config_id: B
+description: "Cấu hình B: chunk phân cấp theo cấu trúc có breadcrumb, prompt v2_strict"
+collection: momo_B
+top_k: 5
+# similarity_threshold: float hoặc null.
+# Cách chọn: Dựa trên kết quả Phase 1 (analysis/phase1_retrieval_check.md), trung bình Top-1 của nhóm "Có đáp án" là ~0.79,
+# trong khi nhóm "Không có đáp án" là ~0.68. Ngưỡng khuyến nghị thử nghiệm là 0.72 - 0.74.
+# Khi bật short_circuit_on_empty_context: true, các chunk có similarity < ngưỡng này sẽ bị loại,
+# và nếu không còn chunk nào pipeline sẽ trả lời từ chối ngay mà không tốn chi phí gọi LLM.
+similarity_threshold: null
+max_context_chars: 6000
+short_circuit_on_empty_context: false
+prompt_file: prompts/v2_strict.txt
+llm:
+  model: null                     # model null => tự động resolve dùng generator_model trong models.yaml
+  temperature: 0.1
+  max_output_tokens: 1024

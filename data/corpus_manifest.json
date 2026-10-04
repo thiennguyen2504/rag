@@ -1,0 +1,57 @@
+{
+  "momo_terms": {
+    "doc_id": "momo_terms",
+    "title": "Điều khoản và điều kiện về dịch vụ (Điều Khoản Chung)",
+    "url": "https://momo.vn/dieu-khoan-dieu-le",
+    "source_kind": "web",
+    "fetched_at": "2026-10-03T20:12:56.202363+00:00",
+    "raw_sha256": "b66a62cf7b5b1d0a8b44e01b3336ee7edfd2b060d71af201d869555461584b6c",
+    "processed_sha256": "0dfa8bad6292ba3cb57cb53479460eabe2524a1952a5ebe5ebbf59f08290cbf8",
+    "n_chars": 37155,
+    "n_words": 7922
+  },
+  "momo_linking": {
+    "doc_id": "momo_linking",
+    "title": "Điều khoản dịch vụ liên kết tài khoản",
+    "url": "https://momo.vn/dieu-khoan-dich-vu-lien-ket",
+    "source_kind": "web",
+    "fetched_at": "2026-10-03T20:12:56.255492+00:00",
+    "raw_sha256": "5889568db0f6b7ac5eff13c2ab0e078dfce17b80109ef91ae178dbae20018ecb",
+    "processed_sha256": "a1f5ac1a460f38b2759d92316a69d84eaafd97a44fb399167db3c85fd2443c68",
+    "n_chars": 4624,
+    "n_words": 1000
+  },
+  "momo_faq_basic": {
+    "doc_id": "momo_faq_basic",
+    "title": "Hỏi đáp - Thông tin cơ bản",
+    "url": "https://www.momo.vn/hoi-dap/thong-tin-co-ban-ctgr1",
+    "source_kind": "web",
+    "fetched_at": "2026-10-03T20:12:56.443816+00:00",
+    "raw_sha256": "d3283bce1194c5f1a526d38f6b3057810f2e7d7bdb5ce24bfaf66ca2d82d7382",
+    "processed_sha256": "6def74bc41cd6897e952622a2212d3abcf5271874837ba6fff533b8928ac3773",
+    "n_chars": 2157,
+    "n_words": 481
+  },
+  "momo_faq_finance": {
+    "doc_id": "momo_faq_finance",
+    "title": "Hỏi đáp - Câu hỏi chung về tài chính",
+    "url": "https://www.momo.vn/hoi-dap/tai-chinh-ctgr147/cau-hoi-chung-ve-tai-chinh",
+    "source_kind": "web",
+    "fetched_at": "2026-10-03T20:12:56.529529+00:00",
+    "raw_sha256": "0cb636268d06c7195a0545acf3632ebb2e286a195296946625a24ac5efc66c2e",
+    "processed_sha256": "be0a23b3f61da75f4d0917436ac7be92fb998345aa99ba50a2991e03d89a1756",
+    "n_chars": 1620,
+    "n_words": 358
+  },
+  "momo_privacy": {
+    "doc_id": "momo_privacy",
+    "title": "Chính sách quyền riêng tư",
+    "url": "https://momo.vn/chinh-sach-quyen-rieng-tu",
+    "source_kind": "web",
+    "fetched_at": "2026-10-03T20:12:57.566352+00:00",
+    "raw_sha256": "77ac79f039abbea9fa5f2342463e8b4c210060e8975813bf120ab6d348dcb2e5",
+    "processed_sha256": "dde56fb245de257e7d05cdf5e406fce81c91795ebfce8e6e001ab7c61ef439d2",
+    "n_chars": 20653,
+    "n_words": 4549
+  }
+}

@@ -1,0 +1,18 @@
+docs:
+  - doc_id: momo_terms
+    title: "Điều khoản và điều kiện về dịch vụ (Điều Khoản Chung)"
+    url: "https://momo.vn/dieu-khoan-dieu-le"
+  - doc_id: momo_linking
+    title: "Điều khoản dịch vụ liên kết tài khoản"
+    url: "https://momo.vn/dieu-khoan-dich-vu-lien-ket"
+  - doc_id: momo_faq_basic
+    title: "Hỏi đáp - Thông tin cơ bản"
+    url: "https://www.momo.vn/hoi-dap/thong-tin-co-ban-ctgr1"
+  - doc_id: momo_faq_finance
+    title: "Hỏi đáp - Câu hỏi chung về tài chính"
+    url: "https://www.momo.vn/hoi-dap/tai-chinh-ctgr147/cau-hoi-chung-ve-tai-chinh"
+  - doc_id: momo_privacy
+    title: "Chính sách quyền riêng tư"
+    url: ""
+    discover_from: "https://momo.vn/"
+    link_text_regex: "quyền riêng tư"

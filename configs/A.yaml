@@ -1,0 +1,13 @@
+config_id: A
+description: "Cấu hình A: chunk phẳng 500 ký tự (naive), prompt v1_simple"
+collection: momo_A
+top_k: 3
+similarity_threshold: null        # float hoặc null; chunk có similarity < ngưỡng bị loại
+max_context_chars: 6000
+short_circuit_on_empty_context: false   # true: nếu không còn chunk nào sau lọc -> trả lời từ chối cố định, không gọi LLM
+prompt_file: prompts/v1_simple.txt
+llm:
+  model: null                     # model null => tự động resolve dùng generator_model trong models.yaml
+  temperature: 0.1
+  max_output_tokens: 1024
+

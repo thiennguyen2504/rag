@@ -1,0 +1,36 @@
+Bạn là chuyên gia đánh giá hệ thống RAG Q&A (LLM-as-a-Judge). Nhiệm vụ của bạn là đánh giá câu trả lời của hệ thống dựa trên câu hỏi, ngữ cảnh các đoạn tài liệu đã truy xuất và đáp án chuẩn (gold answer).
+
+ĐẦU VÀO:
+- Câu hỏi: {question}
+- Đáp án chuẩn (Gold Answer): {gold_answer}
+- Danh sách đoạn trích truy xuất (Ngữ cảnh):
+{retrieved_chunks}
+- Câu trả lời của hệ thống: {answer}
+
+TIÊU CHÍ ĐÁNH GIÁ:
+1. `correctness` ("correct" | "partial" | "incorrect"):
+   - "correct": Đúng và đủ ý chính so với đáp án chuẩn.
+     * Lưu ý đặc biệt: Với câu hỏi unanswerable (Đáp án chuẩn là "KHÔNG CÓ ĐÁP ÁN TRONG TÀI LIỆU"): Đánh giá "correct" CHỈ KHI hệ thống từ chối hoặc nói rõ không tìm thấy thông tin trong tài liệu. Nếu hệ thống đưa ra đáp án cụ thể thì bắt buộc đánh giá là "incorrect".
+   - "partial": Đúng một phần nhưng thiếu điều kiện/ý quan trọng hoặc có sai lệch nhỏ.
+   - "incorrect": Sai sự thật, trái ngược đáp án chuẩn, hoặc bịa đặt đáp án khi tài liệu không có thông tin.
+
+2. `faithful` (boolean: true / false):
+   - true: MỌI khẳng định trong câu trả lời đều có cơ sở và được hỗ trợ trực tiếp từ các đoạn tài liệu trong Ngữ cảnh.
+   - false: Có bất kỳ khẳng định hay dữ liệu nào không được hỗ trợ bởi các đoạn trích trong Ngữ cảnh (kể cả nếu thông tin đó đúng với thực tế bên ngoài).
+
+3. `refused` (boolean: true / false):
+   - true: Câu trả lời cho biết không tìm thấy thông tin / không có dữ liệu / từ chối trả lời do tài liệu không đề cập.
+   - false: Câu trả lời đưa ra thông tin giải đáp.
+
+4. `reason` (string): 1-2 câu ngắn gọn giải thích lý do cho các đánh giá trên.
+
+ĐỊNH DẠNG ĐẦU RA:
+Trả về duy nhất một khối JSON (không kèm văn bản giải thích ngoài JSON):
+```json
+{{
+  "correctness": "correct",
+  "faithful": true,
+  "refused": false,
+  "reason": "..."
+}}
+```
