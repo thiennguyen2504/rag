@@ -1,8 +1,0 @@
-{
-  "run_id": "run_B_50",
-  "total_questions": 50,
-  "faithfulness": 0.99,
-  "answer_relevancy": 0.7799,
-  "context_precision": 0.9958,
-  "context_recall": 0.9838
-}

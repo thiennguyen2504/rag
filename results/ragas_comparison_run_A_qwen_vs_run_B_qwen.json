@@ -1,0 +1,30 @@
+{
+  "run_A": "run_A_qwen",
+  "run_B": "run_B_qwen",
+  "metrics_diff": {
+    "faithfulness": {
+      "run_A": 0.855,
+      "run_B": 0.996,
+      "delta": 0.141,
+      "percent_change": 16.49
+    },
+    "answer_relevancy": {
+      "run_A": 0.9155,
+      "run_B": 0.8725,
+      "delta": -0.043,
+      "percent_change": -4.7
+    },
+    "context_precision": {
+      "run_A": 1.0,
+      "run_B": 0.999,
+      "delta": -0.001,
+      "percent_change": -0.1
+    },
+    "context_recall": {
+      "run_A": 0.975,
+      "run_B": 0.9841,
+      "delta": 0.0091,
+      "percent_change": 0.93
+    }
+  }
+}

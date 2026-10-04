@@ -29,13 +29,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Chào bạn, học sinh từ đủ 15 tuổi đến dưới 18 tuổi nếu không bị mất hoặc hạn chế năng lực hành vi dân sự thì hoàn toàn được đăng ký và sử dụng ví MoMo theo quy định của công ty.",
-              "cost": 9.5e-05,
-              "latencyMs": 3284.35,
+              "text": "Bạn trẻ khoảng 16 tuổi, khi đang là học sinh, chưa đủ điều kiện để tự đứng tên đăng ký và sử dụng tài khoản ví MoMo. Theo Điều Khoản Chung, Người Sử Dụng phải có năng lực hành vi dân sự phù hợp để xác lập và thực hiện giao dịch sử dụng Sản Phẩm/Dịch Vụ theo quy định pháp luật và không thuộc trường hợp bị mất, bị hạn chế năng lực hành vi dân sự hoặc có khó khăn trong nhận thức, làm chủ hành vi.",
+              "cost": 0.0,
+              "latencyMs": 4160.23,
               "tokenUsage": {
-                "total": 471,
-                "prompt": 416,
-                "completion": 55
+                "total": 408,
+                "prompt": 319,
+                "completion": 89
               },
               "gradingResult": {
                 "pass": true,
@@ -43,7 +43,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 61.3% (19/31 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 87.1% (27/31 từ)."
                   }
                 ]
               }
@@ -51,13 +51,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Căn cứ theo điều khoản dịch vụ MoMo, trường hợp người sử dụng từ đủ 15 tuổi đến chưa đủ 18 tuổi và không bị mất hoặc hạn chế năng lực hành vi dân sự thì được đăng ký, mở và sử dụng tài khoản theo điều kiện, phương thức và quy trình áp dụng của MoMo phù hợp với quy định pháp luật [1].",
-              "cost": 0.000313,
-              "latencyMs": 2370.36,
+              "text": "Theo Điều khoản và điều kiện về dịch vụ (Điều Khoản Chung) trong tài liệu được cung cấp, người từ đủ 15 tuổi đến chưa đủ 18 tuổi và không bị mất, hạn chế năng lực hành vi dân sự có thể đăng ký, mở và sử dụng tài khoản MoMo theo điều kiện, phương thức và quy trình áp dụng của MoMo phù hợp với quy định pháp luật. Tuy nhiên, cần có người đại diện hoặc người giám hộ hợp pháp theo quy định pháp luật. Do đó, người học sinh khoảng 16 tuổi có thể tự đứng tên đăng ký và sử dụng tài khoản MoMo, nhưng cần có sự giám hộ hoặc sự đồng ý của người lớn.",
+              "cost": 0.0,
+              "latencyMs": 14934.51,
               "tokenUsage": {
-                "total": 1826,
-                "prompt": 1738,
-                "completion": 88
+                "total": 1431,
+                "prompt": 1309,
+                "completion": 122
               },
               "gradingResult": {
                 "pass": true,
@@ -86,13 +86,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Dạ, khi liên kết dịch vụ thì hạn mức mặc định của MoMo là tối đa 50.000đ cho mỗi lần giao dịch và tối đa 250.000đ cho cả một ngày bạn nhé.",
-              "cost": 9.3e-05,
-              "latencyMs": 4421.33,
+              "text": "Theo thiết lập mặc định của MoMo, khi liên kết với dịch vụ đối tác, số tiền tối đa có thể trả cho một lần thanh toán là 50.000đ, trong khi số tiền tối đa cho cả một ngày là 250.000đ.",
+              "cost": 0.0,
+              "latencyMs": 3397.07,
               "tokenUsage": {
-                "total": 494,
-                "prompt": 451,
-                "completion": 43
+                "total": 387,
+                "prompt": 346,
+                "completion": 41
               },
               "gradingResult": {
                 "pass": true,
@@ -100,7 +100,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 95.0% (19/20 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 65.0% (13/20 từ)."
                   }
                 ]
               }
@@ -108,13 +108,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Theo điều khoản liên kết, mặc định hạn mức thanh toán cho mỗi giao dịch tối đa là 50.000đ [1], và tổng hạn mức ngày tối đa là 250.000đ mỗi ngày cho các giao dịch từ một tài khoản đối tác đã liên kết [2].",
-              "cost": 0.000292,
-              "latencyMs": 2391.98,
+              "text": "Theo thiết lập mặc định của MoMo, khi liên kết với dịch vụ đối tác, số tiền tối đa có thể trả cho một lần thanh toán là 50.000đ, và cho cả một ngày là 250.000đ.",
+              "cost": 0.0,
+              "latencyMs": 10788.43,
               "tokenUsage": {
-                "total": 1760,
-                "prompt": 1697,
-                "completion": 63
+                "total": 1347,
+                "prompt": 1311,
+                "completion": 36
               },
               "gradingResult": {
                 "pass": true,
@@ -122,7 +122,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 95.0% (19/20 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 65.0% (13/20 từ)."
                   }
                 ]
               }
@@ -143,13 +143,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Dạ theo chính sách quản lý rủi ro của MoMo, số tiền tối đa bạn được lưu lại trong ví tại mọi thời điểm là 200 triệu đồng (200.000.000 đồng).",
-              "cost": 8.8e-05,
-              "latencyMs": 3227.24,
+              "text": "Quyết định của MoMo về lượng tiền tối đa được phép lưu giữ lại trong tài khoản ví điện tử tại mọi thời điểm là 200.000.000 đồng.",
+              "cost": 0.0,
+              "latencyMs": 2990.72,
               "tokenUsage": {
-                "total": 455,
-                "prompt": 412,
-                "completion": 43
+                "total": 302,
+                "prompt": 275,
+                "completion": 27
               },
               "gradingResult": {
                 "pass": true,
@@ -157,7 +157,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 85.0% (17/20 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 75.0% (15/20 từ)."
                   }
                 ]
               }
@@ -165,13 +165,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Căn cứ chính sách quản lý rủi ro của MoMo, số dư tối đa của Tài Khoản Ví Điện Tử là 200.000.000 đồng tại mọi thời điểm [1].",
-              "cost": 0.00029,
-              "latencyMs": 2692.02,
+              "text": "[1] Chính sách quản lý rủi ro của MoMo quy định lượng tiền tối đa được phép lưu giữ lại trong tài khoản ví điện tử tại mọi thời điểm là 200.000.000 đồng.",
+              "cost": 0.0,
+              "latencyMs": 13294.5,
               "tokenUsage": {
-                "total": 1819,
-                "prompt": 1781,
-                "completion": 38
+                "total": 1376,
+                "prompt": 1343,
+                "completion": 33
               },
               "gradingResult": {
                 "pass": true,
@@ -200,13 +200,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Theo quy định của MoMo, tổng hạn mức cả chuyển tiền lẫn thanh toán của một khách hàng cá nhân tối đa là 100 triệu đồng mỗi tháng.",
-              "cost": 8.3e-05,
-              "latencyMs": 3395.98,
+              "text": "Trong một tháng, một khách hàng cá nhân được chuyển tiền và chi tiêu thanh toán qua các tài khoản ví MoMo tổng cộng không vượt quá 100.000.000 đồng.",
+              "cost": 0.0,
+              "latencyMs": 3443.3,
               "tokenUsage": {
-                "total": 436,
-                "prompt": 396,
-                "completion": 40
+                "total": 372,
+                "prompt": 343,
+                "completion": 29
               },
               "gradingResult": {
                 "pass": true,
@@ -214,7 +214,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 39.1% (9/23 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 47.8% (11/23 từ)."
                   }
                 ]
               }
@@ -222,13 +222,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Tổng hạn mức giao dịch (bao gồm chuyển tiền và thanh toán) qua các Tài Khoản Ví Điện Tử cá nhân của 01 Người Sử Dụng tối đa là 100.000.000 đồng/tháng, trừ các trường hợp được pháp luật loại trừ [1].",
-              "cost": 0.000282,
-              "latencyMs": 2868.9,
+              "text": "Tổng hạn mức giao dịch (chuyển tiền và thanh toán) qua các Tài Khoản Ví Điện Tử cá nhân của một Người Sử Dụng tối đa là 100.000.000 đồng/tháng, trừ các trường hợp được pháp luật loại trừ. [1]",
+              "cost": 0.0,
+              "latencyMs": 13149.56,
               "tokenUsage": {
-                "total": 1696,
-                "prompt": 1635,
-                "completion": 61
+                "total": 1280,
+                "prompt": 1241,
+                "completion": 39
               },
               "gradingResult": {
                 "pass": true,
@@ -236,7 +236,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 95.7% (22/23 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (23/23 từ)."
                   }
                 ]
               }
@@ -255,37 +255,15 @@
           },
           "outputs": [
             {
-              "pass": false,
-              "score": 0.0,
-              "text": "Với các hóa đơn điện, nước, cước viễn thông, học phí hay viện phí thì MoMo có hạn mức bổ sung riêng tối đa không quá 300 triệu đồng một tháng.",
-              "cost": 8.6e-05,
-              "latencyMs": 4117.88,
-              "tokenUsage": {
-                "total": 442,
-                "prompt": 398,
-                "completion": 44
-              },
-              "gradingResult": {
-                "pass": false,
-                "componentResults": [
-                  {
-                    "pass": false,
-                    "score": 0.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 27.8% (5/18 từ)."
-                  }
-                ]
-              }
-            },
-            {
               "pass": true,
               "score": 1.0,
-              "text": "Đối với nhóm giao dịch thanh toán đặc thù theo quy định pháp luật (điện, nước, viễn thông, học phí, viện phí...), MoMo áp dụng hạn mức bổ sung nhưng tổng hạn mức cho nhóm này không vượt quá 300.000.000 đồng/tháng [1].",
-              "cost": 0.000273,
-              "latencyMs": 2270.63,
+              "text": "Hạn mức bổ sung hàng tháng cho các khoản chi đặc thù như tiền điện, nước, cước viễn thông, học phí, viện phí của MoMo là không vượt quá 300.000.000 đồng/tháng.",
+              "cost": 0.0,
+              "latencyMs": 3193.97,
               "tokenUsage": {
-                "total": 1622,
-                "prompt": 1555,
-                "completion": 67
+                "total": 322,
+                "prompt": 291,
+                "completion": 31
               },
               "gradingResult": {
                 "pass": true,
@@ -293,7 +271,29 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (18/18 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 66.7% (12/18 từ)."
+                  }
+                ]
+              }
+            },
+            {
+              "pass": true,
+              "score": 1.0,
+              "text": "Theo tài liệu [1], hạn mức bổ sung cho các khoản chi đặc thù như tiền điện, nước, cước viễn thông, học phí, viện phí là 300.000.000 đồng/tháng.",
+              "cost": 0.0,
+              "latencyMs": 8507.04,
+              "tokenUsage": {
+                "total": 1219,
+                "prompt": 1191,
+                "completion": 28
+              },
+              "gradingResult": {
+                "pass": true,
+                "componentResults": [
+                  {
+                    "pass": true,
+                    "score": 1.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 50.0% (9/18 từ)."
                   }
                 ]
               }
@@ -314,13 +314,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Mức thanh toán thấp nhất mà bạn có thể tự cài đặt cho một giao dịch liên kết là 25.000đ, còn mức tối đa là không giới hạn.",
-              "cost": 9e-05,
-              "latencyMs": 4478.59,
+              "text": "Khi người dùng chủ động điều chỉnh cài đặt hạn mức liên kết đối tác trên MoMo, mức tối thiểu được phép cài đặt cho mỗi giao dịch đơn lẻ là 25.000đ.",
+              "cost": 0.0,
+              "latencyMs": 2596.07,
               "tokenUsage": {
-                "total": 486,
-                "prompt": 448,
-                "completion": 38
+                "total": 376,
+                "prompt": 344,
+                "completion": 32
               },
               "gradingResult": {
                 "pass": true,
@@ -336,13 +336,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Ứng dụng Ví điện tử MoMo quy định hạn mức tối thiểu cho mỗi giao dịch liên kết là 25.000đ và hạn mức tối đa là không giới hạn [1].",
-              "cost": 0.000279,
-              "latencyMs": 2308.66,
+              "text": "Khi người dùng chủ động điều chỉnh cài đặt hạn mức liên kết đối tác trên MoMo, mức tối thiểu được phép cài đặt cho mỗi giao dịch đơn lẻ là 25.000đ. [1]",
+              "cost": 0.0,
+              "latencyMs": 1348.82,
               "tokenUsage": {
-                "total": 1737,
-                "prompt": 1697,
-                "completion": 40
+                "total": 1342,
+                "prompt": 1309,
+                "completion": 33
               },
               "gradingResult": {
                 "pass": true,
@@ -350,7 +350,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (15/15 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 86.7% (13/15 từ)."
                   }
                 ]
               }
@@ -371,13 +371,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Hạn mức ngày tối thiểu khi liên kết tài khoản đối tác mà bạn có thể thiết lập là 150.000đ.",
-              "cost": 8e-05,
-              "latencyMs": 3909.37,
+              "text": "Mức thanh toán tối thiểu tính theo ngày mà người dùng có thể thiết lập cho một tài khoản dịch vụ liên kết với MoMo là 150.000đ.",
+              "cost": 0.0,
+              "latencyMs": 3288.55,
               "tokenUsage": {
-                "total": 451,
-                "prompt": 423,
-                "completion": 28
+                "total": 365,
+                "prompt": 338,
+                "completion": 27
               },
               "gradingResult": {
                 "pass": true,
@@ -385,7 +385,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 71.4% (10/14 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 57.1% (8/14 từ)."
                   }
                 ]
               }
@@ -393,13 +393,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Hạn mức ngày tối thiểu mà Quý khách có thể tự cài đặt trên Ứng dụng MoMo là 150.000đ và hạn mức tối đa là không giới hạn [1].",
-              "cost": 0.000277,
-              "latencyMs": 2163.88,
+              "text": "Theo tài liệu cung cấp, mức thanh toán tối thiểu tính theo ngày mà người dùng có thể thiết lập cho một tài khoản dịch vụ liên kết với MoMo là 150.000đ. [2]",
+              "cost": 0.0,
+              "latencyMs": 1279.43,
               "tokenUsage": {
-                "total": 1729,
-                "prompt": 1690,
-                "completion": 39
+                "total": 1336,
+                "prompt": 1303,
+                "completion": 33
               },
               "gradingResult": {
                 "pass": true,
@@ -407,7 +407,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (14/14 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 57.1% (8/14 từ)."
                   }
                 ]
               }
@@ -428,13 +428,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Không bạn nhé, MoMo quy định Ngày Làm Việc chỉ gồm các ngày từ thứ Hai đến thứ Sáu, không tính cuối tuần thứ Bảy, Chủ Nhật và các ngày nghỉ lễ Tết.",
-              "cost": 8.6e-05,
-              "latencyMs": 4330.58,
+              "text": "Không, các ngày thứ Bảy, Chủ Nhật cùng các đợt nghỉ Tết hay nghỉ lễ quốc gia không được MoMo tính là Ngày làm việc.",
+              "cost": 0.0,
+              "latencyMs": 3154.77,
               "tokenUsage": {
-                "total": 439,
-                "prompt": 394,
-                "completion": 45
+                "total": 367,
+                "prompt": 342,
+                "completion": 25
               },
               "gradingResult": {
                 "pass": true,
@@ -442,7 +442,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 81.8% (18/22 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 54.5% (12/22 từ)."
                   }
                 ]
               }
@@ -450,13 +450,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Căn cứ khoản 1.16 Điều 1, Ngày Làm Việc được xác định là các ngày từ Thứ Hai đến Thứ Sáu, không bao gồm ngày nghỉ, lễ, Tết theo quy định pháp luật [1].",
-              "cost": 0.000291,
-              "latencyMs": 3137.82,
+              "text": "Theo tài liệu cung cấp, các ngày thứ Bảy, Chủ Nhật và các đợt nghỉ Tết hay nghỉ lễ quốc gia không được tính là Ngày Làm Việc của MoMo. Điều này được nêu rõ trong [1] (Điều khoản và điều kiện về dịch vụ (Điều Khoản Chung) - CÁC ĐIỀU KHOẢN VÀ ĐIỀU KỆNH MỞ VÀ SỬ DỤNG TÀI KHOẢN MOMO VÀ TÀI KHOẢN VÍ ĐIỆN TỬ MOMO > 1.16. Ngày Làm Việc).",
+              "cost": 0.0,
+              "latencyMs": 14828.26,
               "tokenUsage": {
-                "total": 1798,
-                "prompt": 1751,
-                "completion": 47
+                "total": 1390,
+                "prompt": 1316,
+                "completion": 74
               },
               "gradingResult": {
                 "pass": true,
@@ -464,7 +464,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (22/22 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 59.1% (13/22 từ)."
                   }
                 ]
               }
@@ -485,13 +485,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Đúng rồi bạn, người dùng bắt buộc phải liên kết và duy trì liên kết với tài khoản ngân hàng trong suốt quá trình sử dụng ví MoMo.",
-              "cost": 9.7e-05,
-              "latencyMs": 4865.17,
+              "text": "Người dùng phải liên kết ví MoMo với tài khoản ngân hàng và duy trì kết nối đó trong suốt quá trình sử dụng dịch vụ.",
+              "cost": 0.0,
+              "latencyMs": 3190.68,
               "tokenUsage": {
-                "total": 529,
-                "prompt": 489,
-                "completion": 40
+                "total": 375,
+                "prompt": 349,
+                "completion": 26
               },
               "gradingResult": {
                 "pass": true,
@@ -507,13 +507,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Người Sử Dụng phải hoàn thành việc liên kết và duy trì liên kết tài khoản ngân hàng trong suốt thời gian sử dụng Tài Khoản Ví Điện Tử, trừ trường hợp pháp luật có quy định khác [1].",
-              "cost": 0.000285,
-              "latencyMs": 2796.01,
+              "text": "Người dùng có bắt buộc phải liên kết ví MoMo với tài khoản ngân hàng và duy trì kết nối đó trong toàn bộ quá trình sử dụng dịch vụ không? [1]",
+              "cost": 0.0,
+              "latencyMs": 13035.47,
               "tokenUsage": {
-                "total": 1732,
-                "prompt": 1676,
-                "completion": 56
+                "total": 1306,
+                "prompt": 1274,
+                "completion": 32
               },
               "gradingResult": {
                 "pass": true,
@@ -521,7 +521,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (28/28 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 46.4% (13/28 từ)."
                   }
                 ]
               }
@@ -540,37 +540,15 @@
           },
           "outputs": [
             {
-              "pass": false,
-              "score": 0.0,
-              "text": "Khi mở ví MoMo, bạn cần cung cấp họ tên, ngày sinh, quốc tịch, số điện thoại, số CCCD/hộ chiếu còn hạn và dữ liệu sinh trắc học để xác minh.",
-              "cost": 0.0001,
-              "latencyMs": 4350.3,
-              "tokenUsage": {
-                "total": 535,
-                "prompt": 492,
-                "completion": 43
-              },
-              "gradingResult": {
-                "pass": false,
-                "componentResults": [
-                  {
-                    "pass": false,
-                    "score": 0.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 28.6% (8/28 từ)."
-                  }
-                ]
-              }
-            },
-            {
               "pass": true,
               "score": 1.0,
-              "text": "Hồ Sơ Mở Tài Khoản nhận biết khách hàng gồm tối thiểu: họ và tên; ngày, tháng, năm sinh; quốc tịch; số điện thoại; số định danh cá nhân hoặc giấy tờ tùy thân còn hiệu lực; và dữ liệu sinh trắc học [1].",
-              "cost": 0.000304,
-              "latencyMs": 2971.33,
+              "text": "Khi tạo lập ví MoMo, một cá nhân cần cung cấp thông tin cơ bản tối thiểu trong hồ sơ nhận diện khách hàng bao gồm: họ và tên, ngày, tháng, năm sinh, quốc tịch, số điện thoại, số định danh cá nhân hoặc giấy tờ tùy thân còn hiệu lực, và dữ liệu sinh trắc học.",
+              "cost": 0.0,
+              "latencyMs": 4115.71,
               "tokenUsage": {
-                "total": 1842,
-                "prompt": 1780,
-                "completion": 62
+                "total": 429,
+                "prompt": 372,
+                "completion": 57
               },
               "gradingResult": {
                 "pass": true,
@@ -578,7 +556,29 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (28/28 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 71.4% (20/28 từ)."
+                  }
+                ]
+              }
+            },
+            {
+              "pass": true,
+              "score": 1.0,
+              "text": "Một cá nhân khi tạo lập ví MoMo cần phải cung cấp những thông tin cơ bản tối thiểu theo Điều khoản và điều kiện về dịch vụ (Điều Khoản Chung) như sau:\n\n- Họ và tên\n- Ngày, tháng, năm sinh\n- Quốc tịch\n- Số điện thoại\n- Số định danh cá nhân hoặc giấy tờ tùy thân còn hiệu lực\n- Dữ liệu sinh trắc học\n\nĐây là thông tin tối thiểu được nêu trong điểm 1.15 của tài liệu [1].",
+              "cost": 0.0,
+              "latencyMs": 10679.17,
+              "tokenUsage": {
+                "total": 1401,
+                "prompt": 1317,
+                "completion": 84
+              },
+              "gradingResult": {
+                "pass": true,
+                "componentResults": [
+                  {
+                    "pass": true,
+                    "score": 1.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 75.0% (21/28 từ)."
                   }
                 ]
               }
@@ -599,13 +599,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Dạ MoMo sẽ so khớp dữ liệu sinh trắc học với giấy tờ tùy thân hoặc tài khoản định danh điện tử VNeID của bạn.",
-              "cost": 8.5e-05,
-              "latencyMs": 3339.27,
+              "text": "Khi tiến hành xác thực khuôn mặt hoặc vân tay, hệ thống MoMo sẽ đối chiếu dữ liệu sinh trắc học của khách hàng với các nguồn như:\n\n1. Dữ liệu trong giấy tờ tùy thân\n2. Dữ liệu trong tài khoản định danh điện tử (VneID)\n3. Cơ sở dữ liệu có thẩm quyền\n4. Các nguồn dữ liệu khác được pháp luật cho phép",
+              "cost": 0.0,
+              "latencyMs": 4060.55,
               "tokenUsage": {
-                "total": 466,
-                "prompt": 432,
-                "completion": 34
+                "total": 387,
+                "prompt": 321,
+                "completion": 66
               },
               "gradingResult": {
                 "pass": true,
@@ -613,7 +613,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 60.9% (14/23 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 82.6% (19/23 từ)."
                   }
                 ]
               }
@@ -621,13 +621,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Biện pháp xác thực sinh trắc học thực hiện đối chiếu khớp đúng thông tin của Người Sử Dụng với dữ liệu trong giấy tờ tùy thân, danh tính điện tử (tài khoản định danh điện tử VNeID) hoặc cơ sở dữ liệu có thẩm quyền [1].",
-              "cost": 0.000285,
-              "latencyMs": 2435.64,
+              "text": "Khi tiến hành xác thực khuôn mặt hoặc vân tay, hệ thống MoMo sẽ đối chiếu dữ liệu sinh trắc học của khách hàng với dữ liệu trong giấy tờ tùy thân, danh tính điện tử (tài khoản định danh điện tử VneID) hoặc cơ sở dữ liệu có thẩm quyền hoặc nguồn dữ liệu khác được pháp luật cho phép.",
+              "cost": 0.0,
+              "latencyMs": 13539.95,
               "tokenUsage": {
-                "total": 1693,
-                "prompt": 1625,
-                "completion": 68
+                "total": 1406,
+                "prompt": 1345,
+                "completion": 61
               },
               "gradingResult": {
                 "pass": true,
@@ -635,7 +635,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (23/23 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 91.3% (21/23 từ)."
                   }
                 ]
               }
@@ -656,13 +656,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Dạ không, MoMo không có chủ trương hướng đến đối tượng người dùng dưới 15 tuổi bạn nhé.",
-              "cost": 9e-05,
-              "latencyMs": 3469.68,
+              "text": "Ứng dụng MoMo không hướng đến nhóm đối tượng khách hàng dưới 15 tuổi.",
+              "cost": 0.0,
+              "latencyMs": 2971.33,
               "tokenUsage": {
-                "total": 517,
-                "prompt": 490,
-                "completion": 27
+                "total": 400,
+                "prompt": 386,
+                "completion": 14
               },
               "gradingResult": {
                 "pass": true,
@@ -670,29 +670,29 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 43.5% (10/23 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 39.1% (9/23 từ)."
                   }
                 ]
               }
             },
             {
-              "pass": true,
-              "score": 1.0,
-              "text": "Chính sách quyền riêng tư nêu rõ MoMo không hướng đến người dưới 15 tuổi. Việc xử lý dữ liệu của người dưới 15 tuổi phải thực hiện thông qua người đại diện theo pháp luật theo quy định [1].",
-              "cost": 0.000239,
-              "latencyMs": 2383.87,
+              "pass": false,
+              "score": 0.0,
+              "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
+              "cost": 0.0,
+              "latencyMs": 7231.0,
               "tokenUsage": {
-                "total": 1415,
-                "prompt": 1356,
-                "completion": 59
+                "total": 1054,
+                "prompt": 1041,
+                "completion": 13
               },
               "gradingResult": {
-                "pass": true,
+                "pass": false,
                 "componentResults": [
                   {
-                    "pass": true,
-                    "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 78.3% (18/23 từ)."
+                    "pass": false,
+                    "score": 0.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 17.4% (4/23 từ)."
                   }
                 ]
               }
@@ -713,13 +713,35 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Bạn có quyền gửi yêu cầu để MoMo xóa thông tin dữ liệu cá nhân của mình trong phạm vi pháp luật cho phép.",
-              "cost": 9.3e-05,
-              "latencyMs": 3860.92,
+              "text": "Chủ tài khoản có quyền gửi yêu cầu đề nghị MoMo xóa bỏ dữ liệu cá nhân của mình trong hệ thống.",
+              "cost": 0.0,
+              "latencyMs": 3078.33,
               "tokenUsage": {
-                "total": 521,
-                "prompt": 489,
-                "completion": 32
+                "total": 400,
+                "prompt": 378,
+                "completion": 22
+              },
+              "gradingResult": {
+                "pass": true,
+                "componentResults": [
+                  {
+                    "pass": true,
+                    "score": 1.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 46.2% (6/13 từ)."
+                  }
+                ]
+              }
+            },
+            {
+              "pass": true,
+              "score": 1.0,
+              "text": "Chủ tài khoản có quyền gửi yêu cầu đề nghị MoMo xóa bỏ dữ liệu cá nhân của mình trong hệ thống. Điều này được quy định trong [1], trong đó có thông tin về quyền yêu cầu xóa dữ liệu trong phạm vi pháp luật cho phép.",
+              "cost": 0.0,
+              "latencyMs": 7618.17,
+              "tokenUsage": {
+                "total": 1019,
+                "prompt": 971,
+                "completion": 48
               },
               "gradingResult": {
                 "pass": true,
@@ -728,28 +750,6 @@
                     "pass": true,
                     "score": 1.0,
                     "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 84.6% (11/13 từ)."
-                  }
-                ]
-              }
-            },
-            {
-              "pass": true,
-              "score": 1.0,
-              "text": "Theo quy định pháp luật về bảo vệ dữ liệu cá nhân, Người dùng có quyền yêu cầu xóa dữ liệu trong phạm vi pháp luật cho phép [1].",
-              "cost": 0.000214,
-              "latencyMs": 2382.46,
-              "tokenUsage": {
-                "total": 1304,
-                "prompt": 1264,
-                "completion": 40
-              },
-              "gradingResult": {
-                "pass": true,
-                "componentResults": [
-                  {
-                    "pass": true,
-                    "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (13/13 từ)."
                   }
                 ]
               }
@@ -770,13 +770,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Có bạn nhé, khách hàng hoàn toàn có quyền rút lại sự đồng ý cho MoMo xử lý dữ liệu cá nhân bất kỳ lúc nào.",
-              "cost": 9.3e-05,
-              "latencyMs": 4722.4,
+              "text": "Có, khách hàng có quyền rút lại sự đồng ý cho MoMo xử lý dữ liệu cá nhân của họ.",
+              "cost": 0.0,
+              "latencyMs": 1272.83,
               "tokenUsage": {
-                "total": 523,
-                "prompt": 490,
-                "completion": 33
+                "total": 374,
+                "prompt": 354,
+                "completion": 20
               },
               "gradingResult": {
                 "pass": true,
@@ -792,13 +792,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Người dùng có quyền rút lại sự đồng ý đối với việc xử lý dữ liệu cá nhân theo quy định của pháp luật về bảo vệ dữ liệu cá nhân [1].",
-              "cost": 0.000214,
-              "latencyMs": 2945.37,
+              "text": "Có, sau khi đã chấp thuận cho MoMo xử lý dữ liệu cá nhân, khách hàng có quyền rút lại sự đồng ý đó. Điều này được quy định trong [1] và [2] của tài liệu. \n\nTrích dẫn từ tài liệu:\n[1] \"Quyền rút lại sự đồng ý\" cho thấy khách hàng có quyền rút lại sự đồng ý cho MoMo xử lý dữ liệu cá nhân.\n[2] \"Trong trường hợp Người dùng không đồng ý với các sửa đổi, bổ sung này, Người dùng có quyền ngừng sử dụng dịch vụ, yêu cầu đóng tài khoản và rút lại sự đồng ý cho phép xử lý dữ liệu.\"",
+              "cost": 0.0,
+              "latencyMs": 6922.88,
               "tokenUsage": {
-                "total": 1304,
-                "prompt": 1264,
-                "completion": 40
+                "total": 1093,
+                "prompt": 984,
+                "completion": 109
               },
               "gradingResult": {
                 "pass": true,
@@ -806,7 +806,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (14/14 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 71.4% (10/14 từ)."
                   }
                 ]
               }
@@ -827,12 +827,12 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "MoMo thu thập các thông tin định danh cá nhân, thông tin liên lạc, thông tin tài khoản dịch vụ, cùng với dữ liệu sinh trắc học và tài chính.",
-              "cost": 9.7e-05,
-              "latencyMs": 4340.86,
+              "text": "MoMo thu thập các loại dữ liệu cơ bản liên quan đến thông tin định danh và liên lạc như tên, số điện thoại, địa chỉ email, và thông tin liên lạc khác để tạo và duy trì tài khoản cho khách hàng.",
+              "cost": 0.0,
+              "latencyMs": 3103.4,
               "tokenUsage": {
-                "total": 519,
-                "prompt": 476,
+                "total": 405,
+                "prompt": 362,
                 "completion": 43
               },
               "gradingResult": {
@@ -841,7 +841,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 92.0% (23/25 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 68.0% (17/25 từ)."
                   }
                 ]
               }
@@ -849,13 +849,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Các loại thông tin được MoMo thu thập bao gồm: thông tin định danh cá nhân, thông tin liên lạc, thông tin tài khoản dịch vụ, thông tin sinh trắc học và thông tin tài chính theo quy định [1].",
-              "cost": 0.000248,
-              "latencyMs": 2524.37,
+              "text": "MoMo thu thập các loại dữ liệu cơ bản sau để vận hành tài khoản:\n\n- Thông tin định danh cá nhân\n- Thông tin liên lạc [1]\n\nTrích dẫn: [1] (Chính sách quyền riêng tư - Chính sách quyền riêng tư > Các loại thông tin cá nhân được thu thập và xử lý)",
+              "cost": 0.0,
+              "latencyMs": 8370.22,
               "tokenUsage": {
-                "total": 1479,
-                "prompt": 1420,
-                "completion": 59
+                "total": 1138,
+                "prompt": 1083,
+                "completion": 55
               },
               "gradingResult": {
                 "pass": true,
@@ -863,7 +863,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (25/25 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 76.0% (19/25 từ)."
                   }
                 ]
               }
@@ -884,13 +884,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "MoMo cam kết không chia sẻ dữ liệu cho bên thứ ba để tiếp thị trực tiếp, trừ phi chính bạn đồng ý hoặc theo yêu cầu luật định.",
-              "cost": 9.2e-05,
-              "latencyMs": 4434.86,
+              "text": "MoMo không chia sẻ thông tin khách hàng cho bên thứ ba cho mục đích tiếp thị trực tiếp của họ. Tuy nhiên, MoMo có thể chia sẻ thông tin khách hàng với bên thứ ba trong trường hợp cần thiết để cung cấp dịch vụ, hoặc khi được khách hàng đồng ý, hoặc khi việc chia sẻ được thực hiện theo quy định của pháp luật.",
+              "cost": 0.0,
+              "latencyMs": 3956.16,
               "tokenUsage": {
-                "total": 497,
-                "prompt": 458,
-                "completion": 39
+                "total": 421,
+                "prompt": 354,
+                "completion": 67
               },
               "gradingResult": {
                 "pass": true,
@@ -898,7 +898,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 58.6% (17/29 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 89.7% (26/29 từ)."
                   }
                 ]
               }
@@ -906,13 +906,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "MoMo không chia sẻ thông tin Người dùng cho bên thứ ba cho mục đích tiếp thị trực tiếp của họ, trừ khi được Người dùng đồng ý hoặc khi việc chia sẻ được thực hiện theo quy định của pháp luật [1].",
-              "cost": 0.000245,
-              "latencyMs": 3008.62,
+              "text": "MoMo không chia sẻ thông tin khách hàng cho bên thứ ba nhằm mục đích tiếp thị trực tiếp của bên đó, trừ khi được khách hàng đồng ý hoặc khi việc chia sẻ được thực hiện theo quy định của pháp luật. [1]",
+              "cost": 0.0,
+              "latencyMs": 8382.94,
               "tokenUsage": {
-                "total": 1453,
-                "prompt": 1393,
-                "completion": 60
+                "total": 1164,
+                "prompt": 1120,
+                "completion": 44
               },
               "gradingResult": {
                 "pass": true,
@@ -920,7 +920,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (29/29 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 93.1% (27/29 từ)."
                   }
                 ]
               }
@@ -941,13 +941,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Bản Điều khoản và điều kiện chung này có hiệu lực chính thức bắt đầu áp dụng từ ngày 30/09/2026 bạn nhé.",
-              "cost": 9.2e-05,
-              "latencyMs": 4622.06,
+              "text": "Bản Điều khoản và điều kiện mở và sử dụng tài khoản MoMo hiện hành được công bố bắt đầu có hiệu lực áp dụng từ ngày 30/09/2026.",
+              "cost": 0.0,
+              "latencyMs": 3864.6,
               "tokenUsage": {
-                "total": 514,
-                "prompt": 482,
-                "completion": 32
+                "total": 400,
+                "prompt": 372,
+                "completion": 28
               },
               "gradingResult": {
                 "pass": true,
@@ -955,7 +955,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (7/7 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 71.4% (5/7 từ)."
                   }
                 ]
               }
@@ -963,13 +963,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Các Điều Khoản Và Điều Kiện Mở và Sử Dụng Tài Khoản MoMo được áp dụng chính thức từ ngày 30/09/2026 [1].",
-              "cost": 0.000281,
-              "latencyMs": 2127.23,
+              "text": "Bản Điều khoản và điều kiện mở và sử dụng tài khoản MoMo hiện hành được công bố bắt đầu có hiệu lực áp dụng từ ngày 30/09/2026. [1]",
+              "cost": 0.0,
+              "latencyMs": 13552.42,
               "tokenUsage": {
-                "total": 1778,
-                "prompt": 1746,
-                "completion": 32
+                "total": 1357,
+                "prompt": 1328,
+                "completion": 29
               },
               "gradingResult": {
                 "pass": true,
@@ -998,13 +998,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Bạn có thể nạp tiền vào ví MoMo từ tài khoản ngân hàng liên kết, tài khoản thanh toán ngân hàng hoặc nhận từ ví điện tử khác.",
-              "cost": 9.3e-05,
-              "latencyMs": 3599.8,
+              "text": "Khách hàng có thể nạp tiền vào ví điện tử MoMo thông qua các kênh giao dịch hợp pháp sau:\n\n1. Nhận tiền từ Tài Khoản Ngân Hàng Liên Kết của Người Sử Dụng.\n2. Nhận tiền từ tài khoản thanh toán bằng đồng Việt Nam mở tại ngân hàng, chi nhánh ngân hàng nước ngoài khi pháp luật cho phép.\n3. Nhận tiền từ Tài Khoản Ví Điện Tử khác.\n4. Nhận tiền từ ví điện tử của tổ chức cung ứng dịch vụ ví điện tử khác khi pháp luật cho phép.",
+              "cost": 0.0,
+              "latencyMs": 4877.49,
               "tokenUsage": {
-                "total": 505,
-                "prompt": 466,
-                "completion": 39
+                "total": 462,
+                "prompt": 368,
+                "completion": 94
               },
               "gradingResult": {
                 "pass": true,
@@ -1012,7 +1012,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 70.4% (19/27 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 92.6% (25/27 từ)."
                   }
                 ]
               }
@@ -1020,13 +1020,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Nạp tiền vào Tài Khoản Ví Điện Tử được thực hiện thông qua: (a) nhận tiền từ Tài Khoản Ngân Hàng Liên Kết; (b) nhận tiền từ tài khoản thanh toán VND; (c) nhận tiền từ Tài Khoản Ví Điện Tử khác hoặc ví điện tử khác theo quy định pháp luật [1].",
-              "cost": 0.000312,
-              "latencyMs": 3214.78,
+              "text": "Khách hàng có thể nạp tiền vào ví điện tử MoMo thông qua những kênh giao dịch hợp pháp sau:\n\n- Nhận tiền từ Tài Khoản Ngân Hàng Liên Kết của Người Sử Dụng\n- Nhận tiền từ tài khoản thanh toán bằng đồng Việt Nam mở tại ngân hàng, chi nhánh ngân hàng nước ngoài khi pháp luật cho phép\n- Nhận tiền từ Tài Khoản Ví Điện Tử khác\n- Nhận tiền từ ví điện tử của tổ chức cung ứng dịch vụ ví điện tử khác khi pháp luật cho phép",
+              "cost": 0.0,
+              "latencyMs": 15204.31,
               "tokenUsage": {
-                "total": 1856,
-                "prompt": 1781,
-                "completion": 75
+                "total": 1451,
+                "prompt": 1357,
+                "completion": 94
               },
               "gradingResult": {
                 "pass": true,
@@ -1034,7 +1034,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 88.9% (24/27 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 92.6% (25/27 từ)."
                   }
                 ]
               }
@@ -1053,23 +1053,23 @@
           },
           "outputs": [
             {
-              "pass": true,
-              "score": 1.0,
-              "text": "Bạn có thể hủy liên kết dịch vụ ngay trên ứng dụng MoMo hoặc vào trực tiếp trang web, ứng dụng của đối tác để ngắt kết nối.",
-              "cost": 9.6e-05,
-              "latencyMs": 3847.86,
+              "pass": false,
+              "score": 0.0,
+              "text": "Người dùng có thể thực hiện thao tác ngắt kết nối liên kết thanh toán MoMo với tài khoản đối tác ở ứng dụng MoMo.",
+              "cost": 0.0,
+              "latencyMs": 3220.09,
               "tokenUsage": {
-                "total": 527,
-                "prompt": 489,
-                "completion": 38
+                "total": 399,
+                "prompt": 374,
+                "completion": 25
               },
               "gradingResult": {
-                "pass": true,
+                "pass": false,
                 "componentResults": [
                   {
-                    "pass": true,
-                    "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 65.4% (17/26 từ)."
+                    "pass": false,
+                    "score": 0.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 30.8% (8/26 từ)."
                   }
                 ]
               }
@@ -1077,13 +1077,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Quý khách có thể hủy dịch vụ liên kết bất kỳ lúc nào ngay trên Ứng dụng Ví điện tử MoMo hoặc hủy ở web, ứng dụng của Nhà cung cấp dịch vụ [1].",
-              "cost": 0.000261,
-              "latencyMs": 2691.39,
+              "text": "Người dùng có thể thực hiện thao tác ngắt kết nối liên kết thanh toán MoMo với tài khoản đối tác ở [1] và [2].\n\n[1] Theo Điều khoản dịch vụ liên kết tài khoản - Điều khoản dịch vụ liên kết > IV. Hủy liên kết, người dùng có thể hủy dịch vụ liên kết bất kỳ lúc nào ngay trên Ứng dụng Ví điện tử MoMo hoặc hủy ở web, ứng dụng của Nhà cung cấp dịch vụ.\n\n[2] Theo Điều khoản dịch vụ liên kết tài khoản - Điều khoản dịch vụ liên kết > II. Cam kết sử dụng, người dùng có nghĩa vụ tìm hiểu kỹ các tiện ích liên quan của dịch vụ liên kết tài khoản, điều khoản thỏa thuận thanh toán với Nhà cung cấp dịch vụ trước khi thực hiện liên kết tài khoản.",
+              "cost": 0.0,
+              "latencyMs": 11787.26,
               "tokenUsage": {
-                "total": 1605,
-                "prompt": 1561,
-                "completion": 44
+                "total": 1349,
+                "prompt": 1206,
+                "completion": 143
               },
               "gradingResult": {
                 "pass": true,
@@ -1091,7 +1091,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (26/26 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 92.3% (24/26 từ)."
                   }
                 ]
               }
@@ -1112,13 +1112,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Dạ M_Service chỉ là trung gian thanh toán nên không chịu trách nhiệm bảo hành hay hoàn tiền đối với sản phẩm do bên đối tác cung cấp ạ.",
-              "cost": 9e-05,
-              "latencyMs": 4104.41,
+              "text": "M_Service không chịu trách nhiệm liên quan đến sản phẩm, dịch vụ do Nhà cung cấp dịch vụ cung cấp.",
+              "cost": 0.0,
+              "latencyMs": 2732.12,
               "tokenUsage": {
-                "total": 476,
-                "prompt": 434,
-                "completion": 42
+                "total": 347,
+                "prompt": 327,
+                "completion": 20
               },
               "gradingResult": {
                 "pass": true,
@@ -1126,29 +1126,29 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 69.6% (16/23 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 73.9% (17/23 từ)."
                   }
                 ]
               }
             },
             {
-              "pass": true,
-              "score": 1.0,
-              "text": "M_Service đóng vai trò trung gian thanh toán giữa Quý khách và Nhà cung cấp dịch vụ, vì vậy M_Service không chịu bất kỳ trách nhiệm liên quan nào về sản phẩm, dịch vụ do Nhà cung cấp dịch vụ cung cấp [1].",
-              "cost": 0.000292,
-              "latencyMs": 2395.41,
+              "pass": false,
+              "score": 0.0,
+              "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
+              "cost": 0.0,
+              "latencyMs": 9969.7,
               "tokenUsage": {
-                "total": 1757,
-                "prompt": 1694,
-                "completion": 63
+                "total": 1319,
+                "prompt": 1306,
+                "completion": 13
               },
               "gradingResult": {
-                "pass": true,
+                "pass": false,
                 "componentResults": [
                   {
-                    "pass": true,
-                    "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (23/23 từ)."
+                    "pass": false,
+                    "score": 0.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 26.1% (6/23 từ)."
                   }
                 ]
               }
@@ -1170,13 +1170,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Người từ 15 đến dưới 18 tuổi cần không bị mất năng lực hành vi dân sự để đăng ký ví MoMo theo quy định.",
-              "cost": 8.9e-05,
-              "latencyMs": 3665.07,
+              "text": "Thiếu niên từ 15 đến dưới 18 tuổi muốn mở và sử dụng MoMo cần thỏa mãn hai điều kiện:\n\n1. Năng lực hành vi dân sự phù hợp để xác lập và thực hiện giao dịch sử dụng Sản Phẩm/Dịch Vụ theo quy định pháp luật và không thuộc trường hợp bị mất, hạn chế năng lực hành vi dân sự hoặc có khó khăn trong nhận thức, làm chủ hành vi.\n\n2. Cần có sự đồng ý và tham gia của người đại diện theo pháp luật, đặc biệt là đối với việc xử lý dữ liệu cá nhân. MoMo có thể yêu cầu thêm sự chấp thuận của người đại diện theo pháp luật tùy theo tính chất dịch vụ và loại dữ liệu được xử lý.",
+              "cost": 0.0,
+              "latencyMs": 4460.59,
               "tokenUsage": {
-                "total": 499,
-                "prompt": 467,
-                "completion": 32
+                "total": 485,
+                "prompt": 355,
+                "completion": 130
               },
               "gradingResult": {
                 "pass": true,
@@ -1184,7 +1184,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 37.1% (13/35 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 88.6% (31/35 từ)."
                   }
                 ]
               }
@@ -1192,13 +1192,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Người từ đủ 15 đến dưới 18 tuổi phải không bị mất, hạn chế năng lực hành vi dân sự [1], đồng thời MoMo có thể yêu cầu thêm sự chấp thuận của người đại diện theo pháp luật tùy tính chất dịch vụ và loại dữ liệu xử lý [2].",
-              "cost": 0.000284,
-              "latencyMs": 3272.77,
+              "text": "Thiếu niên từ 15 đến dưới 18 tuổi muốn mở và sử dụng MoMo cần thỏa mãn những điều kiện sau:\n\n1. Về năng lực dân sự:\n   - Người sử dụng phải có năng lực hành vi dân sự phù hợp để xác lập và thực hiện giao dịch sử dụng Sản Phẩm/Dịch Vụ theo quy định pháp luật.\n   - Người sử dụng không thuộc trường hợp bị mất, bị hạn chế năng lực hành vi dân sự hoặc có khó khăn trong nhận thức, làm chủ hành vi.\n   - Trường hợp người sử dụng từ đủ 15 tuổi đến chưa đủ 18 tuổi và không bị mất, hạn chế năng lực hành vi dân sự, việc đăng ký, mở và sử dụng tài khoản được thực hiện theo điều kiện, phương thức và quy trình áp dụng của MoMo phù hợp với quy định pháp luật.\n\n2. Về thủ tục với người đại diện:\n   - Việc mở và sử dụng tài khoản MoMo cần được thực hiện theo quy định của MoMo.\n   - Đối với người từ đủ 15 đến dưới 18 tuổi, MoMo có thể yêu cầu thêm sự chấp thuận của người đại diện theo pháp luật tùy theo tính chất dịch vụ và loại dữ liệu được xử lý.\n   - MoMo sẽ ngừng xử lý và xóa dữ liệu nếu phát hiện việc thu thập, xử lý không phù hợp với các quy định này.\n\nTóm lại, thiếu niên từ 15 đến dưới 18 tuổi muốn mở và sử dụng MoMo cần phải có năng lực hành vi dân sự phù hợp và cần sự chấp thuận của người đại diện theo pháp luật.",
+              "cost": 0.0,
+              "latencyMs": 17418.88,
               "tokenUsage": {
-                "total": 1688,
-                "prompt": 1620,
-                "completion": 68
+                "total": 1549,
+                "prompt": 1271,
+                "completion": 278
               },
               "gradingResult": {
                 "pass": true,
@@ -1206,7 +1206,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 94.3% (33/35 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 91.4% (32/35 từ)."
                   }
                 ]
               }
@@ -1227,13 +1227,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Hạn mức cá nhân thông thường là 100 triệu một tháng, còn tiền điện nước dịch vụ công thì được hạn mức riêng tới 300 triệu mỗi tháng bạn nhé.",
-              "cost": 7.9e-05,
-              "latencyMs": 3542.67,
+              "text": "Hạn mức thanh toán các loại phí công ích, điện nước, viện phí, học phí trên MoMo không giới hạn riêng biệt, nhưng tổng hạn mức giao dịch chuyển tiền và chi tiêu cá nhân mỗi tháng của mỗi tài khoản Ví Điện Tử là 100.000.000 đồng/tháng. Hạn mức thanh toán các loại phí công ích, điện nước, viện phí, học phí này tuân theo các quy định pháp luật và không vượt quá tổng hạn mức trên.",
+              "cost": 0.0,
+              "latencyMs": 3359.64,
               "tokenUsage": {
-                "total": 399,
-                "prompt": 356,
-                "completion": 43
+                "total": 371,
+                "prompt": 293,
+                "completion": 78
               },
               "gradingResult": {
                 "pass": true,
@@ -1241,29 +1241,29 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 37.1% (13/35 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 65.7% (23/35 từ)."
                   }
                 ]
               }
             },
             {
-              "pass": true,
-              "score": 1.0,
-              "text": "Tổng hạn mức giao dịch cá nhân tối đa là 100.000.000 đồng/tháng [1]. Trong khi đó, nhóm giao dịch thanh toán đặc thù (điện, nước, dịch vụ công...) được MoMo áp dụng hạn mức bổ sung nhưng tổng không vượt quá 300.000.000 đồng/tháng [2].",
-              "cost": 0.00029,
-              "latencyMs": 2930.69,
+              "pass": false,
+              "score": 0.0,
+              "text": "Theo tài liệu cung cấp, hạn mức thanh toán các loại phí công ích, điện nước, viện phí, học phí trên MoMo không được quy định cụ thể trong các điều khoản và điều kiện được cung cấp. Điều này có nghĩa là tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
+              "cost": 0.0,
+              "latencyMs": 9965.95,
               "tokenUsage": {
-                "total": 1717,
-                "prompt": 1644,
-                "completion": 73
+                "total": 1288,
+                "prompt": 1232,
+                "completion": 56
               },
               "gradingResult": {
-                "pass": true,
+                "pass": false,
                 "componentResults": [
                   {
-                    "pass": true,
-                    "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 85.7% (30/35 từ)."
+                    "pass": false,
+                    "score": 0.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 28.6% (10/35 từ)."
                   }
                 ]
               }
@@ -1284,13 +1284,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Nếu CCCD hết hạn mà không cập nhật thì MoMo có thể chặn giao dịch hoặc tạm khóa tài khoản của bạn.",
-              "cost": 8.6e-05,
-              "latencyMs": 3157.37,
+              "text": "Nếu giấy tờ tùy thân của chủ ví MoMo bị hết hiệu lực và khách hàng không chịu cập nhật hoặc xác minh lại, MoMo có quyền áp dụng các biện pháp chế tài như hạn chế, tạm ngừng, từ chối thực hiện một phần hoặc toàn bộ giao dịch, hoặc đóng tài khoản, tuân theo quy định pháp luật và Điều Khoản Chung.",
+              "cost": 0.0,
+              "latencyMs": 4200.56,
               "tokenUsage": {
-                "total": 485,
-                "prompt": 455,
-                "completion": 30
+                "total": 443,
+                "prompt": 379,
+                "completion": 64
               },
               "gradingResult": {
                 "pass": true,
@@ -1298,7 +1298,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 45.5% (10/22 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 95.5% (21/22 từ)."
                   }
                 ]
               }
@@ -1306,13 +1306,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Trường hợp Người Sử Dụng không cung cấp, cập nhật xác minh thông tin hoặc giấy tờ tùy thân hết hiệu lực, MoMo có thể hạn chế, tạm ngừng, từ chối thực hiện một phần hoặc toàn bộ Giao Dịch, hoặc đóng tài khoản [1].",
-              "cost": 0.000288,
-              "latencyMs": 2805.83,
+              "text": "Theo tài liệu được cung cấp, nếu giấy tờ tùy thân của chủ tài khoản MoMo bị hết hiệu lực và khách hàng không cập nhật xác minh lại, MoMo có thể áp dụng các biện pháp chế tài sau:\n\n1. Hạn chế, tạm ngừng hoặc từ chối thực hiện một phần hoặc toàn bộ giao dịch.\n2. Đóng tài khoản.\n\nĐiều này được quy định tại [1] (Điều khoản và điều kiện về dịch vụ (Điều Khoản Chung) - CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN MỞ VÀ SỬ DỤNG TÀI KHOẢN MOMO VÀ TÀI KHOẢN VÍ ĐIỆN TỬ MOMO > 3. Đăng ký, định danh, xác thực và cập nhật thông tin), cụ thể là phần nói về \"Hệ quả của việc không cập nhật/xác minh: Trường hợp Người Sử Dụng không cung cấp, cập nhật hoặc xác minh thông tin theo yêu cầu, hoặc giấy tờ tùy thân hết hiệu lực, MoMo có thể hạn chế, tạm ngừng, từ chối thực hiện một phần hoặc toàn bộ Giao Dịch, hoặc đóng tài khoản, theo quy định pháp luật và Điều Khoản Chung này.\"",
+              "cost": 0.0,
+              "latencyMs": 16196.08,
               "tokenUsage": {
-                "total": 1725,
-                "prompt": 1659,
-                "completion": 66
+                "total": 1376,
+                "prompt": 1191,
+                "completion": 185
               },
               "gradingResult": {
                 "pass": true,
@@ -1320,7 +1320,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 90.9% (20/22 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 95.5% (21/22 từ)."
                   }
                 ]
               }
@@ -1341,35 +1341,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Hạn mức liên kết mặc định là tối đa 50.000đ mỗi lần và 250.000đ mỗi ngày cho một tài khoản đối tác.",
-              "cost": 8.6e-05,
-              "latencyMs": 4005.29,
+              "text": "Khi liên kết thanh toán MoMo với tài khoản đối tác, hạn mức mặc định và hạn mức tối thiểu cho từng giao dịch và cả ngày khác nhau:\n\n- Hạn mức mặc định cho mỗi giao dịch là 50.000đ, hạn mức tối thiểu là 25.000đ.\n- Hạn mức mặc định cho cả ngày là 250.000đ, hạn mức tối thiểu là 150.000đ.\n\nĐây là thông tin dựa trên thông tin được cung cấp trong các điều khoản dịch vụ liên kết tài khoản của MoMo.",
+              "cost": 0.0,
+              "latencyMs": 3998.25,
               "tokenUsage": {
-                "total": 480,
-                "prompt": 450,
-                "completion": 30
-              },
-              "gradingResult": {
-                "pass": true,
-                "componentResults": [
-                  {
-                    "pass": true,
-                    "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 73.1% (19/26 từ)."
-                  }
-                ]
-              }
-            },
-            {
-              "pass": true,
-              "score": 1.0,
-              "text": "Chi tiết các hạn mức: Với từng giao dịch, mức tối thiểu là 25.000đ và mức mặc định tối đa là 50.000đ [1]. Với cả ngày, mức tối thiểu là 150.000đ và mức mặc định tối đa là 250.000đ mỗi ngày [2].",
-              "cost": 0.00029,
-              "latencyMs": 2497.0,
-              "tokenUsage": {
-                "total": 1756,
-                "prompt": 1696,
-                "completion": 60
+                "total": 429,
+                "prompt": 344,
+                "completion": 85
               },
               "gradingResult": {
                 "pass": true,
@@ -1378,6 +1356,28 @@
                     "pass": true,
                     "score": 1.0,
                     "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 92.3% (24/26 từ)."
+                  }
+                ]
+              }
+            },
+            {
+              "pass": true,
+              "score": 1.0,
+              "text": "Theo tài liệu cung cấp, các hạn mức mặc định và hạn mức tối thiểu khi liên kết thanh toán MoMo với tài khoản đối tác khác nhau có sự khác biệt giữa từng giao dịch và cả ngày. \n\n- Hạn mức giao dịch mặc định là 50.000đ, hạn mức tối thiểu là 25.000đ.\n- Hạn mức giao dịch mặc định là 250.000đ, hạn mức tối thiểu là 150.000đ.\n\nĐây là các hạn mức mặc định và tối thiểu được cung cấp cho giao dịch thanh toán qua MoMo.",
+              "cost": 0.0,
+              "latencyMs": 3063.23,
+              "tokenUsage": {
+                "total": 1398,
+                "prompt": 1309,
+                "completion": 89
+              },
+              "gradingResult": {
+                "pass": true,
+                "componentResults": [
+                  {
+                    "pass": true,
+                    "score": 1.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 88.5% (23/26 từ)."
                   }
                 ]
               }
@@ -1396,37 +1396,15 @@
           },
           "outputs": [
             {
-              "pass": false,
-              "score": 0.0,
-              "text": "MoMo có quyền thu hồi hoặc trích tiền ví khi người dùng nợ phí, khi hệ thống bị lỗi ghi nhầm tiền hoặc theo lệnh cơ quan nhà nước.",
-              "cost": 9.3e-05,
-              "latencyMs": 4248.33,
-              "tokenUsage": {
-                "total": 500,
-                "prompt": 460,
-                "completion": 40
-              },
-              "gradingResult": {
-                "pass": false,
-                "componentResults": [
-                  {
-                    "pass": false,
-                    "score": 0.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 34.4% (11/32 từ)."
-                  }
-                ]
-              }
-            },
-            {
               "pass": true,
               "score": 1.0,
-              "text": "MoMo được trích nợ, khấu trừ hoặc thu hồi tiền trong các trường hợp: (a) có căn cứ xác định Người Sử Dụng phải thanh toán hoặc hoàn trả; (b) khoản tiền ghi có nhầm do sai sót kỹ thuật; (c) nghĩa vụ theo yêu cầu hợp pháp của cơ quan có thẩm quyền [1].",
-              "cost": 0.000311,
-              "latencyMs": 3344.26,
+              "text": "MoMo có quyền tự ý trích nợ, khấu trừ hoặc thu hồi tiền từ tài khoản của người dùng trong những trường hợp sau:\n\n1. Khi có căn cứ xác định người dùng phải thanh toán hoặc hoàn trả.\n2. Đối với giao dịch và phí đã được người dùng xác nhận.\n3. Đối với khoản tiền ghi có nhầm hoặc phát sinh do sai sót kỹ thuật.\n4. Theo yêu cầu của cơ quan có thẩm quyền hoặc theo quy định của pháp luật.",
+              "cost": 0.0,
+              "latencyMs": 4570.28,
               "tokenUsage": {
-                "total": 1840,
-                "prompt": 1762,
-                "completion": 78
+                "total": 457,
+                "prompt": 372,
+                "completion": 85
               },
               "gradingResult": {
                 "pass": true,
@@ -1434,7 +1412,29 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 87.5% (28/32 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 90.6% (29/32 từ)."
+                  }
+                ]
+              }
+            },
+            {
+              "pass": true,
+              "score": 1.0,
+              "text": "Theo tài liệu cung cấp, MoMo chỉ trích nợ, khấu trừ hoặc thu hồi tiền trong phạm vi khoản tiền khi có căn cứ xác định Người Sử Dụng phải thanh toán hoặc hoàn trả. Các trường hợp này bao gồm:\n\n- Giao Dịch và khoản phí đã được Người Sử Dụng xác nhận;\n- Khoản tiền ghi có nhầm hoặc phát sinh do sai sót kỹ thuật;\n- Nghĩa vụ theo yêu cầu hợp pháp của cơ quan có thẩm quyền hoặc trường hợp khác được pháp luật cho phép.\n\nMoMo thông báo cho Người Sử Dụng trước hoặc ngay sau khi thực hiện trích nợ hoặc thu hồi tiền, trừ trường hợp pháp luật hạn chế việc thông báo.",
+              "cost": 0.0,
+              "latencyMs": 14807.79,
+              "tokenUsage": {
+                "total": 1451,
+                "prompt": 1330,
+                "completion": 121
+              },
+              "gradingResult": {
+                "pass": true,
+                "componentResults": [
+                  {
+                    "pass": true,
+                    "score": 1.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 93.8% (30/32 từ)."
                   }
                 ]
               }
@@ -1455,13 +1455,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Trách nhiệm giao dịch trái phép dựa trên lỗi các bên, nếu do lỗi hoặc sự cố hệ thống MoMo thì người dùng không phải chịu thiệt hại.",
-              "cost": 0.000102,
-              "latencyMs": 4278.67,
+              "text": "Trách nhiệm đối với giao dịch trái phép được phân chia dựa trên lỗi của các bên, kết quả tra soát và quy định pháp luật. Người dùng không phải chịu trách nhiệm đối với tổn thất phát sinh do lỗi của MoMo, sự cố hệ thống của MoMo hoặc các trường hợp khác mà pháp luật quy định không thuộc trách nhiệm của Người Sử Dụng. Trong các trường hợp này, MoMo có trách nhiệm bồi hoàn tổn thất cho Người Sử Dụng theo quy định của pháp luật hiện hành.",
+              "cost": 0.0,
+              "latencyMs": 4729.18,
               "tokenUsage": {
-                "total": 557,
-                "prompt": 517,
-                "completion": 40
+                "total": 478,
+                "prompt": 386,
+                "completion": 92
               },
               "gradingResult": {
                 "pass": true,
@@ -1469,7 +1469,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 66.7% (20/30 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 96.7% (29/30 từ)."
                   }
                 ]
               }
@@ -1477,13 +1477,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Trách nhiệm đối với Giao Dịch trái phép được xác định trên cơ sở lỗi của các bên [1]. Người Sử Dụng không phải chịu trách nhiệm đối với những tổn thất phát sinh do lỗi hoặc sự cố hệ thống của MoMo, và MoMo có trách nhiệm bồi hoàn [2].",
-              "cost": 0.000299,
-              "latencyMs": 2868.87,
+              "text": "Trách nhiệm đối với giao dịch trái phép được phân chia dựa trên cơ sở lỗi của các bên, kết quả tra soát và quy định pháp luật. Theo Điều khoản và điều kiện về dịch vụ (Điều Khoản Chung) - CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN MỞ VÀ SỬ DỤNG TÀI KHOẢN MOMO VÀ TÀI KHOẢN VÍ ĐIỆN TỬ MOMO [1], người dùng không phải chịu trách nhiệm đối với những tổn thất phát sinh do lỗi của MoMo, sự cố hệ thống của MoMo hoặc các trường hợp khác mà pháp luật quy định không thuộc trách nhiệm của người dùng, trong các trường hợp này, MoMo có trách nhiệm bồi hoàn tổn thất cho người dùng theo quy định của pháp luật hiện hành.",
+              "cost": 0.0,
+              "latencyMs": 14995.82,
               "tokenUsage": {
-                "total": 1775,
-                "prompt": 1702,
-                "completion": 73
+                "total": 1399,
+                "prompt": 1272,
+                "completion": 127
               },
               "gradingResult": {
                 "pass": true,
@@ -1510,37 +1510,15 @@
           },
           "outputs": [
             {
-              "pass": false,
-              "score": 0.0,
-              "text": "Để kích hoạt ví điện tử chính thức, bạn cần đăng ký, chụp giấy tờ xác thực sinh trắc học và liên kết ngân hàng.",
-              "cost": 9.1e-05,
-              "latencyMs": 4219.69,
-              "tokenUsage": {
-                "total": 506,
-                "prompt": 472,
-                "completion": 34
-              },
-              "gradingResult": {
-                "pass": false,
-                "componentResults": [
-                  {
-                    "pass": false,
-                    "score": 0.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 30.8% (8/26 từ)."
-                  }
-                ]
-              }
-            },
-            {
               "pass": true,
               "score": 1.0,
-              "text": "Người dùng trở thành Tài Khoản Ví Điện Tử chính thức sau khi hoàn tất quy trình đăng ký, định danh, xác thực sinh trắc học và liên kết với tài khoản ngân hàng theo quy định Ngân hàng Nhà nước [1], [2].",
-              "cost": 0.000305,
-              "latencyMs": 2575.19,
+              "text": "Để một tài khoản MoMo thông thường được nâng cấp và kích hoạt đầy đủ thành Tài Khoản Ví Điện Tử MoMo chính thức, người dùng cần hoàn thành các thủ tục sau:\n\n1. Tải ứng dụng MoMo và cung cấp Hồ Sơ Mở Tài Khoản.\n2. Thực hiện theo hướng dẫn trên ứng dụng MoMo, bao gồm việc định danh và xác thực sinh trắc học theo quy định của Ngân hàng Nhà nước.\n3. Sử dụng các biện pháp xác thực như mật khẩu, OTP, PIN, SMS OTP, xác thực sinh trắc học và các biện pháp khác phù hợp với quy định pháp luật và Ngân hàng Nhà nước.",
+              "cost": 0.0,
+              "latencyMs": 5124.36,
               "tokenUsage": {
-                "total": 1849,
-                "prompt": 1787,
-                "completion": 62
+                "total": 448,
+                "prompt": 336,
+                "completion": 112
               },
               "gradingResult": {
                 "pass": true,
@@ -1548,7 +1526,29 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 76.9% (20/26 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 65.4% (17/26 từ)."
+                  }
+                ]
+              }
+            },
+            {
+              "pass": true,
+              "score": 1.0,
+              "text": "Để một tài khoản MoMo thông thường được nâng cấp và kích hoạt đầy đủ thành Tài Khoản Ví Điện Tử MoMo chính thức, người dùng cần hoàn thành các thủ tục sau:\n\n1. Tải ứng dụng MoMo trên thiết bị di động của mình.\n2. Cung cấp Hồ Sơ Mở Tài Khoản theo hướng dẫn trên ứng dụng MoMo.\n3. Thực hiện theo các bước định danh và xác thực sinh trắc học theo quy định của Ngân hàng Nhà nước.\n4. Cung cấp và cập nhật đầy đủ, chính xác, kịp thời các thông tin trong Hồ Sơ Mở Tài Khoản.\n5. Cung cấp thông tin về tài khoản ngân hàng để liên kết với tài khoản MoMo.\n6. Cập nhật thông tin khi cần thiết cho mục đích định danh, phòng chống rửa tiền, phòng chống gian lận, kiểm soát rủi ro, tuân thủ pháp luật hoặc điều tra tra soát, khiếu nại.\n\nĐiều này được quy định trong [2] (Điều khoản và điều kiện về dịch vụ (Điều Khoản Chung) - CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN MỞ VÀ SỬ DỤNG TÀI KHOẢN MOMO VÀ TÀI KHOẢN VÍ ĐIỆN TỬ MOMO > 3. Đăng ký, định danh, xác thực và cập nhật thông tin).",
+              "cost": 0.0,
+              "latencyMs": 18938.51,
+              "tokenUsage": {
+                "total": 1566,
+                "prompt": 1358,
+                "completion": 208
+              },
+              "gradingResult": {
+                "pass": true,
+                "componentResults": [
+                  {
+                    "pass": true,
+                    "score": 1.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 84.6% (22/26 từ)."
                   }
                 ]
               }
@@ -1569,13 +1569,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Khi hủy liên kết thì bạn không thể dùng ví MoMo để trả tiền cho bên đó nữa, nhưng các cam kết riêng với họ về hàng hóa vẫn giữ nguyên.",
-              "cost": 0.0001,
-              "latencyMs": 4807.61,
+              "text": "Khi người dùng bấm hủy liên kết thanh toán MoMo với một bên thứ ba, họ sẽ không còn được phép sử dụng Ví MoMo để thanh toán qua trang web hoặc ứng dụng của đối tác đó nữa. Điều này đồng nghĩa với việc các giao dịch thanh toán sau này sẽ không được tự động trừ từ Ví MoMo của người dùng mà cần xác nhận thêm trên ứng dụng MoMo. Tuy nhiên, hủy liên kết này không ảnh hưởng đến các cam kết riêng của người dùng với đối tác về việc cung cấp sản phẩm, dịch vụ.",
+              "cost": 0.0,
+              "latencyMs": 4783.04,
               "tokenUsage": {
-                "total": 542,
-                "prompt": 501,
-                "completion": 41
+                "total": 486,
+                "prompt": 385,
+                "completion": 101
               },
               "gradingResult": {
                 "pass": true,
@@ -1583,7 +1583,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 45.9% (17/37 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 81.1% (30/37 từ)."
                   }
                 ]
               }
@@ -1591,13 +1591,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Sau khi hủy liên kết, Quý khách không thể tiếp tục dùng nguồn tiền Ví MoMo để thanh toán trên web/ứng dụng của đối tác [1], tuy nhiên việc này không ảnh hưởng đến các cam kết riêng giữa Quý khách và Nhà cung cấp dịch vụ [2].",
-              "cost": 0.000278,
-              "latencyMs": 2598.83,
+              "text": "Khi người dùng bấm hủy liên kết thanh toán MoMo với một bên thứ ba, quyền thanh toán qua ví MoMo sẽ bị hủy kết nối với tài khoản dịch vụ của bên thứ ba. Điều này có nghĩa là người dùng sẽ không thể tiếp tục dùng nguồn tiền từ Ví MoMo để thanh toán cho các sản phẩm hoặc dịch vụ của bên thứ ba nữa. \n\nVề nghĩa vụ hợp đồng riêng với đối tác, sau khi hủy liên kết, người dùng sẽ không còn liên kết tài khoản Ví điện tử MoMo với tài khoản dịch vụ của bên thứ ba. Điều này không ảnh hưởng đến các cam kết riêng của người dùng với bên thứ ba về việc cung cấp sản phẩm, dịch vụ. M\\_Service không chịu trách nhiệm liên quan khi thực hiện đúng lệnh yêu cầu giao dịch từ bên thứ ba của người dùng.",
+              "cost": 0.0,
+              "latencyMs": 11967.44,
               "tokenUsage": {
-                "total": 1643,
-                "prompt": 1573,
-                "completion": 70
+                "total": 1369,
+                "prompt": 1217,
+                "completion": 152
               },
               "gradingResult": {
                 "pass": true,
@@ -1605,7 +1605,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 89.2% (33/37 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 91.9% (34/37 từ)."
                   }
                 ]
               }
@@ -1626,13 +1626,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "MoMo chỉ chia sẻ thông tin khi bạn cho phép, khi cần để cung cấp dịch vụ hoặc khi cơ quan nhà nước yêu cầu.",
-              "cost": 8.4e-05,
-              "latencyMs": 3503.89,
+              "text": "MoMo được phép cung cấp hoặc chia sẻ thông tin dữ liệu của khách hàng cho các cơ quan, tổ chức bên ngoài trong những tình huống sau:\n\n1. Tuân thủ nghĩa vụ pháp lý.\n2. Bảo vệ quyền và lợi ích hợp pháp của MoMo, khách hàng và các bên liên quan.\n3. Cần thiết để cung cấp dịch vụ cho khách hàng.\n4. Được khách hàng đồng ý cho mục đích cụ thể.\n\nTrong các trường hợp khác, MoMo không được phép chia sẻ thông tin dữ liệu của khách hàng cho bên thứ ba cho mục đích tiếp thị trực tiếp của họ.",
+              "cost": 0.0,
+              "latencyMs": 4492.48,
               "tokenUsage": {
-                "total": 463,
-                "prompt": 430,
-                "completion": 33
+                "total": 436,
+                "prompt": 330,
+                "completion": 106
               },
               "gradingResult": {
                 "pass": true,
@@ -1640,7 +1640,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 48.4% (15/31 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 61.3% (19/31 từ)."
                   }
                 ]
               }
@@ -1648,13 +1648,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "MoMo chỉ chia sẻ dữ liệu cá nhân trong phạm vi cần thiết để cung cấp dịch vụ, khi cơ quan nhà nước có thẩm quyền yêu cầu theo quy định pháp luật [1], hoặc khi có sự đồng ý của Người dùng [2].",
-              "cost": 0.000247,
-              "latencyMs": 3338.41,
+              "text": "MoMo không được phép cung cấp hoặc chia sẻ thông tin dữ liệu của khách hàng cho các cơ quan, tổ chức bên ngoài trừ khi có một trong những tình huống sau:\n\n1. Tuân thủ nghĩa vụ pháp lý: [1]\n2. Bảo vệ quyền và lợi ích hợp pháp của MoMo, Người dùng và các bên liên quan: [1]\n3. Chia sẻ thông tin trong nhóm các công ty của MoMo: [2]\n4. Việc chia sẻ thông tin cho bên thứ ba chỉ được thực hiện khi được Người dùng đồng ý hoặc khi việc chia sẻ được thực hiện theo quy định của pháp luật: [2]\n\nTrong các trường hợp này, MoMo yêu cầu các bên nhận dữ liệu cam kết tuân thủ các nghĩa vụ bảo mật và bảo vệ dữ liệu cá nhân theo quy định pháp luật và theo thỏa thuận với MoMo.",
+              "cost": 0.0,
+              "latencyMs": 10459.14,
               "tokenUsage": {
-                "total": 1467,
-                "prompt": 1408,
-                "completion": 59
+                "total": 1229,
+                "prompt": 1081,
+                "completion": 148
               },
               "gradingResult": {
                 "pass": true,
@@ -1662,7 +1662,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 83.9% (26/31 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 77.4% (24/31 từ)."
                   }
                 ]
               }
@@ -1681,13 +1681,13 @@
             {
               "pass": false,
               "score": 0.0,
-              "text": "Biểu phí rút tiền từ ví MoMo về ngân hàng liên kết khi vượt quá hạn mức miễn phí trong tháng là 0.5% trên tổng số tiền rút cộng thêm 10.000đ mỗi giao dịch.",
-              "cost": 0.000105,
-              "latencyMs": 4225.74,
+              "text": "Biểu phí rút tiền từ số dư ví MoMo về tài khoản ngân hàng liên kết khi vượt quá định mức miễn phí trong tháng là 2% của tổng số tiền rút.",
+              "cost": 0.0,
+              "latencyMs": 3720.02,
               "tokenUsage": {
-                "total": 555,
-                "prompt": 507,
-                "completion": 48
+                "total": 435,
+                "prompt": 403,
+                "completion": 32
               },
               "gradingResult": {
                 "pass": false,
@@ -1695,7 +1695,7 @@
                   {
                     "pass": false,
                     "score": 0.0,
-                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Biểu phí rút tiền từ ví MoMo về ngân hàng liên kết khi vượt quá hạn mức miễn phí trong tháng là 0.5%"
+                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Biểu phí rút tiền từ số dư ví MoMo về tài khoản ngân hàng liên kết khi vượt quá định mức miễn phí tr"
                   }
                 ]
               }
@@ -1704,12 +1704,12 @@
               "pass": true,
               "score": 1.0,
               "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
-              "cost": 0.000273,
-              "latencyMs": 2386.1,
+              "cost": 0.0,
+              "latencyMs": 9228.05,
               "tokenUsage": {
-                "total": 1762,
-                "prompt": 1743,
-                "completion": 19
+                "total": 1354,
+                "prompt": 1341,
+                "completion": 13
               },
               "gradingResult": {
                 "pass": true,
@@ -1736,13 +1736,13 @@
             {
               "pass": false,
               "score": 0.0,
-              "text": "Chính sách của MoMo hiện tại cho phép chuyển tiền miễn phí giữa các ví MoMo với nhau tối đa 30 lượt mỗi tháng, sau đó áp dụng phí theo quy định.",
-              "cost": 9.5e-05,
-              "latencyMs": 4195.69,
+              "text": "Căn cứ vào thông tin được cung cấp, chính sách hiện tại cho phép chuyển tiền giữa hai tài khoản MoMo với nhau miễn phí tối đa 100 lượt chuyển mỗi tháng.",
+              "cost": 0.0,
+              "latencyMs": 3366.63,
               "tokenUsage": {
-                "total": 500,
-                "prompt": 455,
-                "completion": 45
+                "total": 371,
+                "prompt": 339,
+                "completion": 32
               },
               "gradingResult": {
                 "pass": false,
@@ -1750,7 +1750,7 @@
                   {
                     "pass": false,
                     "score": 0.0,
-                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Chính sách của MoMo hiện tại cho phép chuyển tiền miễn phí giữa các ví MoMo với nhau tối đa 30 lượt "
+                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Căn cứ vào thông tin được cung cấp, chính sách hiện tại cho phép chuyển tiền giữa hai tài khoản MoMo"
                   }
                 ]
               }
@@ -1759,12 +1759,12 @@
               "pass": true,
               "score": 1.0,
               "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
-              "cost": 0.000285,
-              "latencyMs": 2890.01,
+              "cost": 0.0,
+              "latencyMs": 9525.77,
               "tokenUsage": {
-                "total": 1844,
-                "prompt": 1825,
-                "completion": 19
+                "total": 1412,
+                "prompt": 1399,
+                "completion": 13
               },
               "gradingResult": {
                 "pass": true,
@@ -1789,23 +1789,23 @@
           },
           "outputs": [
             {
-              "pass": false,
-              "score": 0.0,
-              "text": "Sản phẩm tích lũy Túi Thần Tài trên MoMo đang áp dụng mức tỷ suất sinh lời khoảng 5% đến 6% một năm, tiền lời được cộng dồn theo ngày.",
-              "cost": 0.000105,
-              "latencyMs": 3601.24,
+              "pass": true,
+              "score": 1.0,
+              "text": "Câu hỏi của bạn không liên quan trực tiếp đến thông tin đã cung cấp. Thông tin được cung cấp chủ yếu liên quan đến các điều khoản và điều kiện của MoMo, bao gồm dịch vụ khách hàng, phí dịch vụ và quy trình xử lý tranh chấp. Không có thông tin nào về tỷ suất sinh lời của sản phẩm tích lũy Túi Thần Tài. Để biết thông tin này, bạn nên liên hệ trực tiếp với MoMo hoặc tham khảo thông tin từ trang web chính thức của họ.",
+              "cost": 0.0,
+              "latencyMs": 4930.49,
               "tokenUsage": {
-                "total": 576,
-                "prompt": 535,
-                "completion": 41
+                "total": 490,
+                "prompt": 398,
+                "completion": 92
               },
               "gradingResult": {
-                "pass": false,
+                "pass": true,
                 "componentResults": [
                   {
-                    "pass": false,
-                    "score": 0.0,
-                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Sản phẩm tích lũy Túi Thần Tài trên MoMo đang áp dụng mức tỷ suất sinh lời khoảng 5% đến 6% một năm,"
+                    "pass": true,
+                    "score": 1.0,
+                    "reason": "Mô hình từ chối chính xác khi thiếu thông tin trong ngữ cảnh."
                   }
                 ]
               }
@@ -1814,12 +1814,12 @@
               "pass": true,
               "score": 1.0,
               "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
-              "cost": 0.000259,
-              "latencyMs": 3140.76,
+              "cost": 0.0,
+              "latencyMs": 7578.92,
               "tokenUsage": {
-                "total": 1669,
-                "prompt": 1650,
-                "completion": 19
+                "total": 1268,
+                "prompt": 1255,
+                "completion": 13
               },
               "gradingResult": {
                 "pass": true,
@@ -1846,13 +1846,13 @@
             {
               "pass": false,
               "score": 0.0,
-              "text": "Hạn mức chi tiêu ban đầu khi đăng ký mở dịch vụ Ví Trả Sau trên MoMo dao động từ 1 triệu đến 5 triệu đồng tùy theo điểm tín nhiệm cá nhân.",
-              "cost": 9.6e-05,
-              "latencyMs": 4727.45,
+              "text": "Hạn mức chi tiêu ban đầu được cấp khi người dùng đăng ký mở dịch vụ Ví Trả Sau trên MoMo không được nêu cụ thể trong thông tin cung cấp. Thông tin chỉ đề cập đến việc người dùng có thể cài đặt các hạn mức thanh toán tối đa theo nhu cầu của mình.",
+              "cost": 0.0,
+              "latencyMs": 2867.64,
               "tokenUsage": {
-                "total": 512,
-                "prompt": 469,
-                "completion": 43
+                "total": 410,
+                "prompt": 354,
+                "completion": 56
               },
               "gradingResult": {
                 "pass": false,
@@ -1860,7 +1860,7 @@
                   {
                     "pass": false,
                     "score": 0.0,
-                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Hạn mức chi tiêu ban đầu khi đăng ký mở dịch vụ Ví Trả Sau trên MoMo dao động từ 1 triệu đến 5 triệu"
+                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Hạn mức chi tiêu ban đầu được cấp khi người dùng đăng ký mở dịch vụ Ví Trả Sau trên MoMo không được "
                   }
                 ]
               }
@@ -1869,12 +1869,12 @@
               "pass": true,
               "score": 1.0,
               "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
-              "cost": 0.000277,
-              "latencyMs": 2181.76,
+              "cost": 0.0,
+              "latencyMs": 11883.66,
               "tokenUsage": {
-                "total": 1788,
-                "prompt": 1769,
-                "completion": 19
+                "total": 1359,
+                "prompt": 1346,
+                "completion": 13
               },
               "gradingResult": {
                 "pass": true,
@@ -1901,13 +1901,13 @@
             {
               "pass": false,
               "score": 0.0,
-              "text": "Phí duy trì dịch vụ Ví Trả Sau MoMo được tính 20.000 đồng cho mỗi tháng có phát sinh giao dịch chi tiêu.",
-              "cost": 9.4e-05,
-              "latencyMs": 4923.21,
+              "text": "Theo thông tin cung cấp, MoMo không cung cấp thông tin cụ thể về mức phí duy trì dịch vụ hoặc phí quản lý tài khoản cho ví Trả Sau. Thông tin chỉ đề cập đến các khoản phí dịch vụ có thể áp dụng cho các giao dịch cụ thể. Để biết chính xác mức phí này, bạn nên liên hệ với bộ phận CSKH của MoMo hoặc kiểm tra thông tin trên ứng dụng MoMo.",
+              "cost": 0.0,
+              "latencyMs": 3515.53,
               "tokenUsage": {
-                "total": 531,
-                "prompt": 499,
-                "completion": 32
+                "total": 462,
+                "prompt": 385,
+                "completion": 77
               },
               "gradingResult": {
                 "pass": false,
@@ -1915,7 +1915,7 @@
                   {
                     "pass": false,
                     "score": 0.0,
-                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Phí duy trì dịch vụ Ví Trả Sau MoMo được tính 20.000 đồng cho mỗi tháng có phát sinh giao dịch chi t"
+                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Theo thông tin cung cấp, MoMo không cung cấp thông tin cụ thể về mức phí duy trì dịch vụ hoặc phí qu"
                   }
                 ]
               }
@@ -1924,12 +1924,12 @@
               "pass": true,
               "score": 1.0,
               "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
-              "cost": 0.000273,
-              "latencyMs": 2628.89,
+              "cost": 0.0,
+              "latencyMs": 8510.09,
               "tokenUsage": {
-                "total": 1760,
-                "prompt": 1741,
-                "completion": 19
+                "total": 1356,
+                "prompt": 1343,
+                "completion": 13
               },
               "gradingResult": {
                 "pass": true,
@@ -1954,23 +1954,23 @@
           },
           "outputs": [
             {
-              "pass": false,
-              "score": 0.0,
-              "text": "Thời gian ân hạn miễn lãi cho các hóa đơn mua sắm qua Ví Trả Sau MoMo tối đa là 45 ngày tính từ ngày bắt đầu chu kỳ sao kê.",
-              "cost": 9.2e-05,
-              "latencyMs": 4363.78,
+              "pass": true,
+              "score": 1.0,
+              "text": "Thông tin trong các điều khoản và điều kiện mà bạn cung cấp không chứa thông tin về thời gian ân hạn miễn lãi cho các hóa đơn mua sắm thanh toán qua Ví Trả Sau của MoMo. Bạn có thể cần tham khảo thêm thông tin từ các điều khoản liên quan đến sản phẩm Ví Trả Sau hoặc liên hệ với bộ phận hỗ trợ khách hàng MoMo để có thông tin chính xác.",
+              "cost": 0.0,
+              "latencyMs": 4209.0,
               "tokenUsage": {
-                "total": 500,
-                "prompt": 462,
-                "completion": 38
+                "total": 427,
+                "prompt": 351,
+                "completion": 76
               },
               "gradingResult": {
-                "pass": false,
+                "pass": true,
                 "componentResults": [
                   {
-                    "pass": false,
-                    "score": 0.0,
-                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Thời gian ân hạn miễn lãi cho các hóa đơn mua sắm qua Ví Trả Sau MoMo tối đa là 45 ngày tính từ ngày"
+                    "pass": true,
+                    "score": 1.0,
+                    "reason": "Mô hình từ chối chính xác khi thiếu thông tin trong ngữ cảnh."
                   }
                 ]
               }
@@ -1979,12 +1979,12 @@
               "pass": true,
               "score": 1.0,
               "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
-              "cost": 0.000278,
-              "latencyMs": 2403.82,
+              "cost": 0.0,
+              "latencyMs": 9042.5,
               "tokenUsage": {
-                "total": 1795,
-                "prompt": 1776,
-                "completion": 19
+                "total": 1375,
+                "prompt": 1362,
+                "completion": 13
               },
               "gradingResult": {
                 "pass": true,
@@ -2011,13 +2011,13 @@
             {
               "pass": false,
               "score": 0.0,
-              "text": "Để đổi được 01 Heo Vàng quyên góp trong Heo Đất MoMo, người dùng cần tích lũy đủ 100g thức ăn thông qua việc điểm danh và làm nhiệm vụ.",
-              "cost": 0.000103,
-              "latencyMs": 4127.25,
+              "text": "Để tích lũy và đổi được một Heo Vàng quyên góp trong chương trình Heo Đất MoMo, người dùng cần tích lũy 1000 gam thức ăn.",
+              "cost": 0.0,
+              "latencyMs": 3398.86,
               "tokenUsage": {
-                "total": 558,
-                "prompt": 516,
-                "completion": 42
+                "total": 412,
+                "prompt": 386,
+                "completion": 26
               },
               "gradingResult": {
                 "pass": false,
@@ -2025,7 +2025,7 @@
                   {
                     "pass": false,
                     "score": 0.0,
-                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Để đổi được 01 Heo Vàng quyên góp trong Heo Đất MoMo, người dùng cần tích lũy đủ 100g thức ăn thông "
+                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Để tích lũy và đổi được một Heo Vàng quyên góp trong chương trình Heo Đất MoMo, người dùng cần tích "
                   }
                 ]
               }
@@ -2034,12 +2034,12 @@
               "pass": true,
               "score": 1.0,
               "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
-              "cost": 0.000271,
-              "latencyMs": 3146.44,
+              "cost": 0.0,
+              "latencyMs": 9759.73,
               "tokenUsage": {
-                "total": 1747,
-                "prompt": 1728,
-                "completion": 19
+                "total": 1340,
+                "prompt": 1327,
+                "completion": 13
               },
               "gradingResult": {
                 "pass": true,
@@ -2066,13 +2066,13 @@
             {
               "pass": false,
               "score": 0.0,
-              "text": "Tỷ lệ quy đổi điểm thưởng MoMo Xu là 1 MoMo Xu tương đương với 1 đồng khi sử dụng để khấu trừ trực tiếp vào hóa đơn thanh toán.",
-              "cost": 0.000102,
-              "latencyMs": 3537.0,
+              "text": "Câu hỏi của bạn không được cung cấp trong thông tin tham khảo mà bạn đã cung cấp. Thông tin liên quan đến tỷ lệ quy đổi điểm thưởng MoMo Rewards sang tiền mặt hoặc mã giảm giá không được nêu trong các đoạn văn bản mà bạn đã đưa ra. Bạn có thể cần kiểm tra thêm hoặc liên hệ với bộ phận hỗ trợ của MoMo để có thông tin chính xác về tỷ lệ quy đổi này.",
+              "cost": 0.0,
+              "latencyMs": 4548.65,
               "tokenUsage": {
-                "total": 565,
-                "prompt": 526,
-                "completion": 39
+                "total": 466,
+                "prompt": 386,
+                "completion": 80
               },
               "gradingResult": {
                 "pass": false,
@@ -2080,7 +2080,7 @@
                   {
                     "pass": false,
                     "score": 0.0,
-                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Tỷ lệ quy đổi điểm thưởng MoMo Xu là 1 MoMo Xu tương đương với 1 đồng khi sử dụng để khấu trừ trực t"
+                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Câu hỏi của bạn không được cung cấp trong thông tin tham khảo mà bạn đã cung cấp. Thông tin liên qua"
                   }
                 ]
               }
@@ -2089,12 +2089,12 @@
               "pass": true,
               "score": 1.0,
               "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
-              "cost": 0.000245,
-              "latencyMs": 3057.71,
+              "cost": 0.0,
+              "latencyMs": 10700.43,
               "tokenUsage": {
-                "total": 1574,
-                "prompt": 1555,
-                "completion": 19
+                "total": 1201,
+                "prompt": 1188,
+                "completion": 13
               },
               "gradingResult": {
                 "pass": true,
@@ -2119,23 +2119,23 @@
           },
           "outputs": [
             {
-              "pass": false,
-              "score": 0.0,
-              "text": "Dịch vụ vay tiêu dùng nhanh FastMoney trên ví MoMo hỗ trợ hạn mức vay tối đa lên đến 20 triệu đồng với thủ tục duyệt hồ sơ trực tuyến.",
-              "cost": 9.6e-05,
-              "latencyMs": 3640.27,
+              "pass": true,
+              "score": 1.0,
+              "text": "Theo thông tin cung cấp, không có thông tin cụ thể về hạn mức vay tiền mặt tiêu dùng nhanh FastMoney do đối tác tài chính liên kết trên ứng dụng MoMo. Thông tin chỉ đề cập đến hạn mức thanh toán và liên kết tài khoản. Bạn có thể cần tham khảo thêm chính sách hoặc chính sách liên quan đến FastMoney riêng biệt.",
+              "cost": 0.0,
+              "latencyMs": 3199.85,
               "tokenUsage": {
-                "total": 516,
-                "prompt": 475,
-                "completion": 41
+                "total": 430,
+                "prompt": 365,
+                "completion": 65
               },
               "gradingResult": {
-                "pass": false,
+                "pass": true,
                 "componentResults": [
                   {
-                    "pass": false,
-                    "score": 0.0,
-                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Dịch vụ vay tiêu dùng nhanh FastMoney trên ví MoMo hỗ trợ hạn mức vay tối đa lên đến 20 triệu đồng v"
+                    "pass": true,
+                    "score": 1.0,
+                    "reason": "Mô hình từ chối chính xác khi thiếu thông tin trong ngữ cảnh."
                   }
                 ]
               }
@@ -2144,12 +2144,12 @@
               "pass": true,
               "score": 1.0,
               "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
-              "cost": 0.000285,
-              "latencyMs": 3098.39,
+              "cost": 0.0,
+              "latencyMs": 9601.35,
               "tokenUsage": {
-                "total": 1843,
-                "prompt": 1824,
-                "completion": 19
+                "total": 1416,
+                "prompt": 1403,
+                "completion": 13
               },
               "gradingResult": {
                 "pass": true,
@@ -2176,13 +2176,13 @@
             {
               "pass": false,
               "score": 0.0,
-              "text": "Khi nạp tiền từ thẻ tín dụng quốc tế Visa hoặc Mastercard vào MoMo, mức phí dịch vụ áp dụng là khoảng 2.2% giá trị nạp cộng 2.000 đồng.",
-              "cost": 0.000108,
-              "latencyMs": 4061.31,
+              "text": "Khách hàng sử dụng thẻ tín dụng quốc tế Visa hoặc Mastercard để nạp tiền vào ví MoMo không bị trừ phí nạp. Tuy nhiên, thông tin về mức phí cụ thể không được cung cấp trong thông tin tham khảo mà tôi có. Để biết chính xác mức phí, khách hàng nên liên hệ với bộ phận CSKH của MoMo.",
+              "cost": 0.0,
+              "latencyMs": 4528.51,
               "tokenUsage": {
-                "total": 591,
-                "prompt": 549,
-                "completion": 42
+                "total": 485,
+                "prompt": 424,
+                "completion": 61
               },
               "gradingResult": {
                 "pass": false,
@@ -2190,7 +2190,7 @@
                   {
                     "pass": false,
                     "score": 0.0,
-                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Khi nạp tiền từ thẻ tín dụng quốc tế Visa hoặc Mastercard vào MoMo, mức phí dịch vụ áp dụng là khoản"
+                    "reason": "Mô hình không từ chối rõ ràng đối với câu hỏi ngoài ngữ cảnh. Output: Khách hàng sử dụng thẻ tín dụng quốc tế Visa hoặc Mastercard để nạp tiền vào ví MoMo không bị trừ ph"
                   }
                 ]
               }
@@ -2199,12 +2199,12 @@
               "pass": true,
               "score": 1.0,
               "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
-              "cost": 0.000243,
-              "latencyMs": 2325.94,
+              "cost": 0.0,
+              "latencyMs": 7864.89,
               "tokenUsage": {
-                "total": 1561,
-                "prompt": 1542,
-                "completion": 19
+                "total": 1213,
+                "prompt": 1200,
+                "completion": 13
               },
               "gradingResult": {
                 "pass": true,
@@ -2233,13 +2233,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Dạ không được bạn nhé, dù có CCCD thì người 14 tuổi vẫn chưa đủ 15 tuổi nên không thể tự mở ví MoMo.",
-              "cost": 9e-05,
-              "latencyMs": 4151.55,
+              "text": "Không, một học sinh 14 tuổi chưa đủ tuổi để đăng ký và mở tài khoản MoMo. Theo chính sách quyền riêng tư của MoMo, người dưới 15 tuổi cần sự chấp thuận của người đại diện theo pháp luật.",
+              "cost": 0.0,
+              "latencyMs": 2711.0,
               "tokenUsage": {
-                "total": 504,
-                "prompt": 473,
-                "completion": 31
+                "total": 451,
+                "prompt": 411,
+                "completion": 40
               },
               "gradingResult": {
                 "pass": true,
@@ -2247,7 +2247,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 37.0% (10/27 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 55.6% (15/27 từ)."
                   }
                 ]
               }
@@ -2255,13 +2255,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Không được phép. MoMo không hướng đến người dưới 15 tuổi, và việc xử lý dữ liệu cho người dưới 15 tuổi bắt buộc phải thực hiện thông qua người đại diện theo pháp luật [1].",
-              "cost": 0.000237,
-              "latencyMs": 2353.29,
+              "text": "[Tài liệu 1] nói rằng MoMo không hướng đến người dưới 15 tuổi và việc xử lý dữ liệu cá nhân của người dưới 15 tuổi cần phải thông qua người đại diện theo pháp luật. Vì vậy, một học sinh 14 tuổi, mặc dù đã có CCCD gắn chip, không thể tự mình đăng ký và mở tài khoản MoMo mà không cần người giám hộ.",
+              "cost": 0.0,
+              "latencyMs": 7166.52,
               "tokenUsage": {
-                "total": 1423,
-                "prompt": 1370,
-                "completion": 53
+                "total": 1201,
+                "prompt": 1134,
+                "completion": 67
               },
               "gradingResult": {
                 "pass": true,
@@ -2269,7 +2269,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (27/27 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 81.5% (22/27 từ)."
                   }
                 ]
               }
@@ -2290,13 +2290,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Không cần đâu bạn, sau khi liên kết xong thì các lần thanh toán sau tiền sẽ tự động trừ mà bạn không phải mở app xác nhận thêm.",
-              "cost": 9.2e-05,
-              "latencyMs": 4144.18,
+              "text": "Không, sau khi đã cài đặt liên kết ví MoMo với ứng dụng của bên thứ ba, người dùng không cần mở app MoMo và nhập mã OTP để xác nhận trừ tiền mỗi lần đặt đơn hàng.",
+              "cost": 0.0,
+              "latencyMs": 3316.0,
               "tokenUsage": {
-                "total": 499,
-                "prompt": 460,
-                "completion": 39
+                "total": 393,
+                "prompt": 355,
+                "completion": 38
               },
               "gradingResult": {
                 "pass": true,
@@ -2304,7 +2304,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 63.0% (17/27 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 59.3% (16/27 từ)."
                   }
                 ]
               }
@@ -2312,13 +2312,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Khẳng định này không đúng. Sau khi được liên kết, các giao dịch thanh toán sau này sẽ tự động trừ tiền từ Ví MoMo mà không cần phải xác nhận gì thêm trên Ứng dụng MoMo [1].",
-              "cost": 0.000287,
-              "latencyMs": 3175.18,
+              "text": "[Tài liệu không chứa thông tin cụ thể về quy trình xác nhận thanh toán sau khi liên kết. Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.]",
+              "cost": 0.0,
+              "latencyMs": 7440.21,
               "tokenUsage": {
-                "total": 1753,
-                "prompt": 1700,
-                "completion": 53
+                "total": 1346,
+                "prompt": 1314,
+                "completion": 32
               },
               "gradingResult": {
                 "pass": true,
@@ -2326,7 +2326,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 92.6% (25/27 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 37.0% (10/27 từ)."
                   }
                 ]
               }
@@ -2347,13 +2347,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Dạ không được bạn nhé, số dư ví MoMo tại mọi thời điểm tối đa chỉ là 200 triệu đồng thôi ạ.",
-              "cost": 7.9e-05,
-              "latencyMs": 3428.35,
+              "text": "Theo thông tin cung cấp, số dư tối đa của Tài Khoản Ví Điện Tử là 200 triệu đồng tại mọi thời điểm. Việc khách hàng đã hoàn thành xác thực sinh trắc học và nâng cấp tài khoản không ảnh hưởng đến hạn mức này. Do đó, số dư trong ví MoMo không được phép vượt quá 200 triệu đồng.",
+              "cost": 0.0,
+              "latencyMs": 3423.6,
               "tokenUsage": {
-                "total": 442,
-                "prompt": 414,
-                "completion": 28
+                "total": 418,
+                "prompt": 357,
+                "completion": 61
               },
               "gradingResult": {
                 "pass": true,
@@ -2361,7 +2361,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 45.5% (10/22 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 72.7% (16/22 từ)."
                   }
                 ]
               }
@@ -2369,13 +2369,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Không được. Căn cứ chính sách quản lý rủi ro của MoMo, số dư tối đa của Tài Khoản Ví Điện Tử chỉ là 200.000.000 đồng tại mọi thời điểm, không được phép vượt quá hạn mức này [1].",
-              "cost": 0.000298,
-              "latencyMs": 2894.17,
+              "text": "Theo tài liệu cung cấp, không có thông tin nào cho thấy số dư tối đa của Tài Khoản Ví Điện Tử có thể vượt quá 300.000.000 đồng (300 triệu đồng) tại mọi thời điểm. Tài liệu chỉ nêu rõ rằng tổng hạn mức cho nhóm giao dịch thanh toán đặc thù không vượt quá 300.000.000 đồng/tháng, nhưng không đề cập đến số dư tối đa của Tài Khoản Ví Điện Tử. \n\nDo đó, dựa trên thông tin được cung cấp, số dư trong ví MoMo không được phép vượt quá 300 triệu đồng.",
+              "cost": 0.0,
+              "latencyMs": 8574.44,
               "tokenUsage": {
-                "total": 1821,
-                "prompt": 1766,
-                "completion": 55
+                "total": 1415,
+                "prompt": 1321,
+                "completion": 94
               },
               "gradingResult": {
                 "pass": true,
@@ -2383,7 +2383,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 95.5% (21/22 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 77.3% (17/22 từ)."
                   }
                 ]
               }
@@ -2404,13 +2404,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Không phải đâu bạn, MoMo giới hạn tổng mức chuyển tiền và thanh toán cá nhân tối đa là 100 triệu một tháng.",
-              "cost": 8e-05,
-              "latencyMs": 3339.2,
+              "text": "Không, hạn mức thanh toán và chuyển tiền qua ví MoMo của mỗi cá nhân không phải là không giới hạn mỗi tháng. Theo Điều khoản và điều kiện về dịch vụ, tổng hạn mức giao dịch (chuyển tiền và thanh toán) qua các Tài Khoản Ví Điện Tử cá nhân của mỗi Người Sử Dụng tối đa là 100.000.000 đồng/tháng.",
+              "cost": 0.0,
+              "latencyMs": 3259.94,
               "tokenUsage": {
-                "total": 435,
-                "prompt": 402,
-                "completion": 33
+                "total": 390,
+                "prompt": 329,
+                "completion": 61
               },
               "gradingResult": {
                 "pass": true,
@@ -2418,29 +2418,29 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 40.0% (10/25 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (25/25 từ)."
                   }
                 ]
               }
             },
             {
-              "pass": true,
-              "score": 1.0,
-              "text": "Không đúng. Tổng hạn mức giao dịch (chuyển tiền và thanh toán) qua các Tài Khoản Ví Điện Tử cá nhân của 01 Người Sử Dụng bị giới hạn tối đa là 100.000.000 đồng/tháng [1].",
-              "cost": 0.000276,
-              "latencyMs": 2985.9,
+              "pass": false,
+              "score": 0.0,
+              "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
+              "cost": 0.0,
+              "latencyMs": 8983.18,
               "tokenUsage": {
-                "total": 1682,
-                "prompt": 1629,
-                "completion": 53
+                "total": 1237,
+                "prompt": 1224,
+                "completion": 13
               },
               "gradingResult": {
-                "pass": true,
+                "pass": false,
                 "componentResults": [
                   {
-                    "pass": true,
-                    "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 96.0% (24/25 từ)."
+                    "pass": false,
+                    "score": 0.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 8.0% (2/25 từ)."
                   }
                 ]
               }
@@ -2461,13 +2461,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Bạn không bắt buộc phải duy trì liên kết vĩnh viễn đâu, bạn có thể bấm hủy bất cứ lúc nào trên app MoMo.",
-              "cost": 8.8e-05,
-              "latencyMs": 4525.65,
+              "text": "Sau khi đã xác nhận liên kết tài khoản MoMo với nhà cung cấp dịch vụ, người dùng không bắt buộc phải duy trì liên kết này vĩnh viễn. Họ có quyền hủy liên kết bất kỳ lúc nào ngay trên ứng dụng MoMo.",
+              "cost": 0.0,
+              "latencyMs": 2256.14,
               "tokenUsage": {
-                "total": 492,
-                "prompt": 460,
-                "completion": 32
+                "total": 377,
+                "prompt": 333,
+                "completion": 44
               },
               "gradingResult": {
                 "pass": true,
@@ -2475,29 +2475,29 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 40.0% (10/25 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 68.0% (17/25 từ)."
                   }
                 ]
               }
             },
             {
-              "pass": true,
-              "score": 1.0,
-              "text": "Người dùng không bắt buộc phải duy trì vĩnh viễn. Quý khách có thể hủy liên kết với dịch vụ bất kỳ lúc nào ngay trên Ứng dụng MoMo hoặc tại ứng dụng của đối tác [1].",
-              "cost": 0.000285,
-              "latencyMs": 2490.74,
+              "pass": false,
+              "score": 0.0,
+              "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
+              "cost": 0.0,
+              "latencyMs": 3847.46,
               "tokenUsage": {
-                "total": 1744,
-                "prompt": 1693,
-                "completion": 51
+                "total": 1319,
+                "prompt": 1306,
+                "completion": 13
               },
               "gradingResult": {
-                "pass": true,
+                "pass": false,
                 "componentResults": [
                   {
-                    "pass": true,
-                    "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 92.0% (23/25 từ)."
+                    "pass": false,
+                    "score": 0.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 4.0% (1/25 từ)."
                   }
                 ]
               }
@@ -2516,37 +2516,15 @@
           },
           "outputs": [
             {
-              "pass": false,
-              "score": 0.0,
-              "text": "Dạ MoMo không có trách nhiệm hoàn tiền khi bạn hủy hàng của đối tác, bạn cần liên hệ bên bán để xử lý nhé.",
-              "cost": 9.5e-05,
-              "latencyMs": 3811.87,
-              "tokenUsage": {
-                "total": 537,
-                "prompt": 504,
-                "completion": 33
-              },
-              "gradingResult": {
-                "pass": false,
-                "componentResults": [
-                  {
-                    "pass": false,
-                    "score": 0.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 30.8% (8/26 từ)."
-                  }
-                ]
-              }
-            },
-            {
               "pass": true,
               "score": 1.0,
-              "text": "Không. M_Service không có nghĩa vụ hoàn trả bất kỳ khoản phí nào khi Quý khách yêu cầu hoàn, hủy việc cung cấp sản phẩm, dịch vụ của bên thứ ba [1].",
-              "cost": 0.000282,
-              "latencyMs": 2707.5,
+              "text": "Không, MoMo không có nghĩa vụ hoàn trả toàn bộ số tiền đã thanh toán khi người dùng hủy mua hàng trên ứng dụng của bên thứ ba đã liên kết với MoMo. Người dùng cần liên hệ với Nhà cung cấp dịch vụ để giải quyết vấn đề này.",
+              "cost": 0.0,
+              "latencyMs": 3557.02,
               "tokenUsage": {
-                "total": 1742,
-                "prompt": 1696,
-                "completion": 46
+                "total": 410,
+                "prompt": 360,
+                "completion": 50
               },
               "gradingResult": {
                 "pass": true,
@@ -2554,7 +2532,29 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 92.3% (24/26 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 61.5% (16/26 từ)."
+                  }
+                ]
+              }
+            },
+            {
+              "pass": false,
+              "score": 0.0,
+              "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
+              "cost": 0.0,
+              "latencyMs": 9078.84,
+              "tokenUsage": {
+                "total": 1230,
+                "prompt": 1217,
+                "completion": 13
+              },
+              "gradingResult": {
+                "pass": false,
+                "componentResults": [
+                  {
+                    "pass": false,
+                    "score": 0.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 15.4% (4/26 từ)."
                   }
                 ]
               }
@@ -2575,13 +2575,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "MoMo không được tự ý đưa thông tin của bạn cho bên ngoài làm tiếp thị nếu chưa có sự đồng ý của bạn.",
-              "cost": 8.8e-05,
-              "latencyMs": 4413.44,
+              "text": "Không, MoMo không có quyền tự ý chuyển giao dữ liệu cá nhân của khách hàng cho các nhãn hàng bên ngoài để họ chạy quảng cáo tiếp thị trực tiếp mà không cần xin phép. Theo chính sách quyền riêng tư của MoMo, việc chia sẻ thông tin Người dùng chỉ được thực hiện khi có sự đồng ý của Người dùng hoặc khi việc chia sẻ được thực hiện theo quy định của pháp luật.",
+              "cost": 0.0,
+              "latencyMs": 3523.14,
               "tokenUsage": {
-                "total": 496,
-                "prompt": 465,
-                "completion": 31
+                "total": 465,
+                "prompt": 388,
+                "completion": 77
               },
               "gradingResult": {
                 "pass": true,
@@ -2589,29 +2589,29 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 46.9% (15/32 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 87.5% (28/32 từ)."
                   }
                 ]
               }
             },
             {
-              "pass": true,
-              "score": 1.0,
-              "text": "Không được phép. MoMo không chia sẻ thông tin Người dùng cho bên thứ ba cho mục đích tiếp thị trực tiếp của họ, trừ khi được Người dùng đồng ý hoặc theo quy định của pháp luật [1].",
-              "cost": 0.000253,
-              "latencyMs": 2433.35,
+              "pass": false,
+              "score": 0.0,
+              "text": "Tôi không tìm thấy thông tin này trong tài liệu được cung cấp.",
+              "cost": 0.0,
+              "latencyMs": 2323.33,
               "tokenUsage": {
-                "total": 1522,
-                "prompt": 1466,
-                "completion": 56
+                "total": 1179,
+                "prompt": 1166,
+                "completion": 13
               },
               "gradingResult": {
-                "pass": true,
+                "pass": false,
                 "componentResults": [
                   {
-                    "pass": true,
-                    "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (32/32 từ)."
+                    "pass": false,
+                    "score": 0.0,
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 15.6% (5/32 từ)."
                   }
                 ]
               }
@@ -2632,13 +2632,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Chào bạn, ví MoMo được sở hữu và vận hành bởi Công ty Cổ phần Dịch vụ Di Động Trực Tuyến (M_Service) nhé.",
-              "cost": 8.2e-05,
-              "latencyMs": 3747.6,
+              "text": "Chào bạn, tên gọi đầy đủ và pháp nhân chính thức của công ty vận hành ví MoMo là Công Ty Cổ Phần Dịch Vụ Di Động Trực Tuyến.",
+              "cost": 0.0,
+              "latencyMs": 3449.3,
               "tokenUsage": {
-                "total": 453,
-                "prompt": 421,
-                "completion": 32
+                "total": 339,
+                "prompt": 310,
+                "completion": 29
               },
               "gradingResult": {
                 "pass": true,
@@ -2646,7 +2646,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 77.8% (7/9 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 66.7% (6/9 từ)."
                   }
                 ]
               }
@@ -2654,13 +2654,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "MoMo là thương hiệu thuộc Công Ty Cổ Phần Dịch Vụ Di Động Trực Tuyến (M_Service) [1].",
-              "cost": 0.000273,
-              "latencyMs": 2576.89,
+              "text": "Tên gọi đầy đủ và pháp nhân chính thức của công ty vận hành ví MoMo là Công Ty Cổ Phần Dịch Vụ Di Động Trực Tuyến. Đây được nêu trong phần [1] của tài liệu, cụ thể tại điểm [1.1].",
+              "cost": 0.0,
+              "latencyMs": 11200.81,
               "tokenUsage": {
-                "total": 1743,
-                "prompt": 1717,
-                "completion": 26
+                "total": 1475,
+                "prompt": 1434,
+                "completion": 41
               },
               "gradingResult": {
                 "pass": true,
@@ -2668,7 +2668,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 77.8% (7/9 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 66.7% (6/9 từ)."
                   }
                 ]
               }
@@ -2689,13 +2689,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Dạ số điện thoại tổng đài hotline hỗ trợ khách hàng của MoMo là 1900 5454 41 bạn nha.",
-              "cost": 9.4e-05,
-              "latencyMs": 3869.7,
+              "text": "Chào MoMo, nếu cần hỗ trợ kỹ thuật hoặc khiếu nại khẩn cấp, số điện thoại tổng đài hotline chính thức của MoMo là 1900 5454 41.",
+              "cost": 0.0,
+              "latencyMs": 3568.25,
               "tokenUsage": {
-                "total": 552,
-                "prompt": 526,
-                "completion": 26
+                "total": 425,
+                "prompt": 398,
+                "completion": 27
               },
               "gradingResult": {
                 "pass": true,
@@ -2711,13 +2711,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Khi cần liên hệ hỗ trợ hoặc khiếu nại, Người dùng có thể liên hệ với MoMo qua Hotline: 1900 5454 41 [1].",
-              "cost": 0.000237,
-              "latencyMs": 2480.81,
+              "text": "Số điện thoại tổng đài hotline chính thức của MoMo là 1900 5454 41。[1]",
+              "cost": 0.0,
+              "latencyMs": 8006.16,
               "tokenUsage": {
-                "total": 1484,
-                "prompt": 1452,
-                "completion": 32
+                "total": 1130,
+                "prompt": 1116,
+                "completion": 14
               },
               "gradingResult": {
                 "pass": true,
@@ -2725,7 +2725,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (10/10 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 40.0% (4/10 từ)."
                   }
                 ]
               }
@@ -2746,13 +2746,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Trên app bạn có thể vào mục Quản lý Dữ liệu cá nhân hoặc Tính năng Trợ giúp để gửi yêu cầu hỗ trợ nhé.",
-              "cost": 9.3e-05,
-              "latencyMs": 4694.49,
+              "text": "Người dùng có thể gửi yêu cầu hỗ trợ hoặc phản ánh về quyền dữ liệu qua các kênh sau trên ứng dụng MoMo: \n\n- Tính năng Quản lý Dữ liệu cá nhân\n- Tính năng Trợ giúp",
+              "cost": 0.0,
+              "latencyMs": 2543.53,
               "tokenUsage": {
-                "total": 527,
-                "prompt": 496,
-                "completion": 31
+                "total": 414,
+                "prompt": 376,
+                "completion": 38
               },
               "gradingResult": {
                 "pass": true,
@@ -2760,7 +2760,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 66.7% (12/18 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 100.0% (18/18 từ)."
                   }
                 ]
               }
@@ -2768,13 +2768,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Người dùng có thể gửi phản ánh, khiếu nại thông qua Tính năng Quản lý Dữ liệu cá nhân hoặc Tính năng Trợ giúp trên ứng dụng MoMo [1].",
-              "cost": 0.000235,
-              "latencyMs": 3186.56,
+              "text": "Người dùng có thể gửi yêu cầu hỗ trợ hoặc phản ánh về quyền dữ liệu qua các kênh sau trên ứng dụng MoMo:\n\n- Tính năng Quản lý Dữ liệu cá nhân\n- Tính năng Trợ giúp",
+              "cost": 0.0,
+              "latencyMs": 5989.01,
               "tokenUsage": {
-                "total": 1442,
-                "prompt": 1401,
-                "completion": 41
+                "total": 1162,
+                "prompt": 1124,
+                "completion": 38
               },
               "gradingResult": {
                 "pass": true,
@@ -2803,13 +2803,13 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Ứng dụng MoMo là ví điện tử trên điện thoại di động giúp bạn chuyển tiền, thanh toán và sử dụng các dịch vụ tài chính tiện lợi.",
-              "cost": 9.2e-05,
-              "latencyMs": 3301.1,
+              "text": "Ứng dụng MoMo là phần mềm di động do MoMo phát triển và quản lý để cung cấp các dịch vụ như Ví điện tử và các dịch vụ thanh toán trung gian, tuân theo quy định của Ngân hàng Nhà nước.",
+              "cost": 0.0,
+              "latencyMs": 3908.56,
               "tokenUsage": {
-                "total": 494,
-                "prompt": 455,
-                "completion": 39
+                "total": 379,
+                "prompt": 337,
+                "completion": 42
               },
               "gradingResult": {
                 "pass": true,
@@ -2817,7 +2817,7 @@
                   {
                     "pass": true,
                     "score": 1.0,
-                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 56.5% (13/23 từ)."
+                    "reason": "Độ trùng khớp từ khóa với đáp án chuẩn: 78.3% (18/23 từ)."
                   }
                 ]
               }
@@ -2825,12 +2825,12 @@
             {
               "pass": true,
               "score": 1.0,
-              "text": "Ứng Dụng MoMo là ứng dụng trên nền tảng di động do MoMo phát triển và vận hành để cung cấp các Sản Phẩm/Dịch Vụ cho Người Sử Dụng, bao gồm dịch vụ Ví Điện Tử và các dịch vụ trung gian thanh toán khác [1].",
-              "cost": 0.000298,
-              "latencyMs": 3323.01,
+              "text": "Ứng dụng MoMo là ứng dụng trên nền tảng di động do MoMo phát triển và vận hành để cung cấp các Sản Phẩm/Dịch Vụ cho Người Sử Dụng, termasuk dịch vụ Ví Điện Tử và các dịch vụ trung gian thanh toán khác được Ngân hàng Nhà nước cho phép, cùng các sản phẩm/dịch vụ khác theo quy định pháp luật. [1]",
+              "cost": 0.0,
+              "latencyMs": 8517.56,
               "tokenUsage": {
-                "total": 1800,
-                "prompt": 1737,
+                "total": 1383,
+                "prompt": 1320,
                 "completion": 63
               },
               "gradingResult": {
