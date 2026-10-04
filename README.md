@@ -428,3 +428,60 @@ python -m eval.manual_grading agree --run-id run_B_full --sheet results/run_B_fu
 # 11. Xuất khung báo cáo tổng kết hoàn chỉnh
 python -m eval.report_skeleton --a run_A_full --b run_B_full --out REPORT.md
 ```
+
+---
+
+## 9. Đánh Giá Chuyên Sâu Với RAGAS (`eval/ragas_eval.py`)
+
+Hệ thống tích hợp bộ thư viện công nghiệp **Ragas** để đo đạc 4 chỉ số cốt lõi của hệ thống RAG:
+1. **Faithfulness**: Đo lường mức độ trung thực của câu trả lời so với ngữ cảnh trích xuất (chống ảo giác / hallucination).
+2. **Answer Relevancy**: Đánh giá câu trả lời có trực tiếp giải quyết đúng trọng tâm câu hỏi của người dùng hay không.
+3. **Context Precision**: Đo tỷ lệ và thứ hạng của các đoạn văn bản chứa thông tin đúng trong top-k kết quả truy xuất.
+4. **Context Recall**: Đánh giá ngữ cảnh truy xuất có bao phủ toàn bộ bằng chứng đối chuẩn (ground truth evidence) hay không.
+
+### 9.1. Đánh giá một đợt chạy cụ thể (Run ID)
+```bash
+python -m eval.ragas_eval --run-id run_live_test_B
+```
+- Tự động đọc `judge_model` và `embedding_model` từ `configs/models.yaml`.
+- Kết quả được xuất tự động:
+  - JSON tóm tắt: `results/<run_id>/ragas_summary.json`
+  - Chi tiết từng câu: `results/<run_id>/ragas_details.jsonl`
+  - Báo cáo Markdown: `results/<run_id>/ragas_summary.md`
+
+### 9.2. So sánh đối đầu giữa 2 cấu hình (A vs B)
+```bash
+python -m eval.ragas_eval --run-id run_live_test_A --compare run_live_test_B
+```
+- Tính toán chênh lệch (Delta) và % thay đổi giữa Run A và Run B trên cả 4 chỉ số Ragas.
+- Xuất bảng so sánh tổng hợp tại: `results/ragas_comparison_run_live_test_A_vs_run_live_test_B.md`.
+
+---
+
+## 10. Kiểm Thử Tự Động & Đánh Giá Đối Soát Bằng Promptfoo
+
+Dự án tích hợp **Promptfoo** để thực hiện kiểm thử tự động, hồi quy (regression testing) và so sánh trực quan giữa các cấu hình RAG (Config A vs Config B).
+
+### Cấu hình:
+- File cấu hình: `promptfooconfig.yaml`
+- Provider kết nối RAG pipeline: `eval/promptfoo_provider.py` (`call_rag_A`, `call_rag_B`)
+- Bộ kiểm tra tự động (Assertions): `eval/promptfoo_assertions.py`
+  - **Factual Groundness**: Kiểm tra độ phủ từ khóa với đáp án đối chuẩn (`gold_answer`).
+  - **Vietnamese Refusal**: Bắt buộc mô hình từ chối lịch sự, không bịa đặt khi câu hỏi nằm ngoài ngữ cảnh tài liệu (`answerable: false`).
+  - **Latency & Cost Check**: Đo lường độ trễ thực tế và chi phí USD theo bảng giá niêm yết.
+
+### 10.1. Chạy kiểm thử tự động qua CLI Promptfoo
+```bash
+npx promptfoo eval
+```
+Để xem giao diện dashboard trực quan (Web UI) so sánh kết quả:
+```bash
+npx promptfoo view
+```
+
+### 10.2. Chạy kiểm thử qua Python Runner
+```bash
+python -m eval.promptfoo_runner
+```
+- Tự động xuất báo cáo tổng hợp Markdown tại: `results/promptfoo_summary.md`
+- Lưu tệp chi tiết kết quả kiểm thử tại: `results/promptfoo_results.json`

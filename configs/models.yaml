@@ -1,5 +1,5 @@
-generator_model: "gemini-2.5-flash-lite"
-judge_model: "gemini-2.5-flash-lite"
+generator_model: "gemini-2.5-flash"
+judge_model: "gemini-2.5-flash"
 embedding_model: "models/gemini-embedding-001"
 
 # Bảng giá USD trên 1 triệu tokens theo công bố chính thức của Google AI Studio (bậc prompt <= 128k)
