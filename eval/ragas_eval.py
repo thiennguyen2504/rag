@@ -14,6 +14,7 @@ import argparse
 import json
 import logging
 import os
+import re
 import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -249,17 +250,31 @@ def evaluate_sample_locally(sample: SingleTurnSample) -> Dict[str, float]:
     full_ref = f"{ref_text} {ref_contexts}".strip()
 
     # 1. Faithfulness
-    # Check if model correctly declined an unanswerable query
-    refusal_keywords = ["không có thông tin", "không được đề cập", "không thấy", "chưa có thông tin"]
-    if any(kw in resp_text for kw in refusal_keywords) and not any(kw in all_context for kw in ["được", "có thể", "hạn mức"]):
-        faithfulness = 1.0
+    refusal_keywords = [
+        "không có thông tin",
+        "không được đề cập",
+        "không thấy thông tin",
+        "không tìm thấy thông tin",
+        "chưa có thông tin",
+        "không có đề cập",
+        "không chứa thông tin",
+        "tôi không tìm thấy",
+    ]
+    is_refusal = any(kw in resp_text for kw in refusal_keywords)
+
+    if not ref_text:
+        # For unanswerable queries:
+        # A faithful model correctly refuses without hallucinating.
+        # A hallucinating model invents facts not supported by reference context.
+        faithfulness = 1.0 if is_refusal else 0.0
     else:
         sents = [s.strip() for s in sample.response.replace("\n", ".").split(".") if len(s.strip()) > 5]
         if not sents:
             sents = [sample.response]
         supported = 0
         for s in sents:
-            words = [w for w in s.lower().replace(",", " ").split() if len(w) >= 3]
+            s_clean = re.sub(r"\[\d+(?:,\s*\d+)*\]", "", s)
+            words = [w for w in s_clean.lower().replace(",", " ").split() if len(w) >= 3]
             if not words:
                 continue
             match_count = sum(1 for w in words if w in all_context)
@@ -268,12 +283,16 @@ def evaluate_sample_locally(sample: SingleTurnSample) -> Dict[str, float]:
         faithfulness = round(supported / len(sents), 4) if sents else 1.0
 
     # 2. Answer Relevancy
-    q_words = [w for w in sample.user_input.lower().replace("?", " ").split() if len(w) >= 3]
-    if q_words and resp_text:
-        q_overlap = sum(1 for w in q_words if w in resp_text) / len(q_words)
-        ans_relevancy = round(min(1.0, 0.5 + 0.5 * q_overlap), 4)
+    if not ref_text and is_refusal:
+        # Correctly refusing an unanswerable query is 100% relevant
+        ans_relevancy = 1.0
     else:
-        ans_relevancy = 0.5 if not resp_text else 1.0
+        q_words = [w for w in sample.user_input.lower().replace("?", " ").split() if len(w) >= 3]
+        if q_words and resp_text:
+            q_overlap = sum(1 for w in q_words if w in resp_text) / len(q_words)
+            ans_relevancy = round(min(1.0, 0.5 + 0.5 * q_overlap), 4)
+        else:
+            ans_relevancy = 0.5 if not resp_text else 1.0
 
     # 3. Context Precision (Mean Average Precision over ranked contexts)
     ref_terms = [w for w in full_ref.replace(",", " ").replace(".", " ").split() if len(w) >= 3]

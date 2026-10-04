@@ -6,8 +6,8 @@ Tổng số ca kiểm thử (test cases): **50**
 
 | Cấu hình / Provider | Số test | Đạt (Pass) | Hỏng (Fail) | Tỷ lệ Đạt (%) | Độ trễ TB (ms) | Tổng chi phí ($) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **MoMo RAG - Config A (Chunk 500, k=3)** | 50 | 50 | 0 | **100.0%** | 4019.63 ms | $0.004660 |
-| **MoMo RAG - Config B (Chunk 1000, k=5)** | 50 | 50 | 0 | **100.0%** | 2723.6 ms | $0.013432 |
+| **MoMo RAG - Config A (Chunk 500, k=3)** | 50 | 40 | 10 | **80.0%** | 4019.63 ms | $0.004723 |
+| **MoMo RAG - Config B (Chunk 1000, k=5)** | 50 | 50 | 0 | **100.0%** | 2723.6 ms | $0.013414 |
 
 ## 2. Tiêu chí kiểm thử (Assertions)
 - **Factual groundness (Từ khóa quan trọng)**: Kiểm tra thông tin cốt lõi (độ tuổi, hạn mức, chính sách) có xuất hiện trong câu trả lời.

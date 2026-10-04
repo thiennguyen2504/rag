@@ -3,28 +3,28 @@
   "run_B": "run_B_50",
   "metrics_diff": {
     "faithfulness": {
-      "run_A": 1.0,
-      "run_B": 0.9183,
-      "delta": -0.0817,
-      "percent_change": -8.17
+      "run_A": 0.8,
+      "run_B": 0.92,
+      "delta": 0.12,
+      "percent_change": 15.0
     },
     "answer_relevancy": {
-      "run_A": 0.7977,
-      "run_B": 0.7036,
-      "delta": -0.0941,
-      "percent_change": -11.8
+      "run_A": 0.7076,
+      "run_B": 0.7431,
+      "delta": 0.0355,
+      "percent_change": 5.02
     },
     "context_precision": {
       "run_A": 1.0,
-      "run_B": 0.999,
-      "delta": -0.001,
-      "percent_change": -0.1
+      "run_B": 0.9958,
+      "delta": -0.0042,
+      "percent_change": -0.42
     },
     "context_recall": {
-      "run_A": 0.9842,
-      "run_B": 0.9901,
-      "delta": 0.0059,
-      "percent_change": 0.6
+      "run_A": 0.9771,
+      "run_B": 0.9838,
+      "delta": 0.0067,
+      "percent_change": 0.69
     }
   }
 }
